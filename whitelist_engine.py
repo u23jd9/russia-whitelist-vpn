@@ -901,21 +901,20 @@ def run_harvest_and_test():
     # 7. Synchronize to VDS (delyoself.site) for Telegram Bot and Web Hosting
     try:
         print("\n[*] Syncing verified files to VDS delyoself.site...")
-        # Copy to jump host then to root@delyoself.site
-        jump_cmd = f"scp -P {VDS_SSH_PORT} -o StrictHostKeyChecking=no {raw_file} {b64_file} {clash_file} {sb_file} {VDS_USER}@{VDS_HOST}:/tmp/"
-        subprocess.run(jump_cmd, shell=True, check=True)
-
-        remote_copy_cmd = (
+        sync_cmd = (
+            f"tar czf - -C {WORK_DIR} whitelist_raw.txt whitelist_vless.txt whitelist_clash.yaml whitelist_singbox.json | "
             f"ssh -p {VDS_SSH_PORT} -o StrictHostKeyChecking=no {VDS_USER}@{VDS_HOST} "
             f"\"ssh -i ~/.ssh/id_autossh root@{VDS_HOST} '"
+            f"tar xzf - -C /tmp/ && "
             f"cp /tmp/whitelist_raw.txt /opt/freesota/whitelist-raw.txt && "
             f"cp /tmp/whitelist_vless.txt /opt/freesota/whitelist-xray.txt && "
             f"cp /tmp/whitelist_clash.yaml /opt/freesota/whitelist-clash.yaml && "
             f"cp /tmp/whitelist_singbox.json /opt/freesota/whitelist-singbox.json && "
+            f"chown root:root /opt/freesota/whitelist-* && "
             f"systemctl restart freesota-web.service"
             f"'\""
         )
-        subprocess.run(remote_copy_cmd, shell=True, check=True)
+        subprocess.run(sync_cmd, shell=True, check=True)
         print("[✓] Synchronized to /opt/freesota/ on delyoself.site and restarted freesota-web!")
     except Exception as e:
         print(f"[!] VDS synchronization error: {e}")
