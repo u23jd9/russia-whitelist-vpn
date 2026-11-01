@@ -1,0 +1,1395 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "select"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "77.88.8.8",
+        "detour": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "domain_suffix": [
+          ".ru",
+          ".su",
+          ".рф"
+        ],
+        "server": "dns-direct"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2085,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "⚡ Самый быстрый",
+        "🇷🇺 Белые списки (БС)",
+        "fallback",
+        "direct",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 383ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 387ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 389ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 433ms",
+        "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 435ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 529ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms",
+        "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 739ms",
+        "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 803ms",
+        "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 804ms",
+        "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 804ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 876ms",
+        "🇷🇺 [Rjsxrd] VLESS (max.ru) | YouTube 947ms",
+        "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1020ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1083ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1087ms",
+        "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 1102ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1128ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1130ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1135ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1135ms",
+        "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1136ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1137ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1144ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1216ms",
+        "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 1238ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1247ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1306ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1394ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1396ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1397ms",
+        "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1410ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1424ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1426ms",
+        "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1432ms",
+        "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 1525ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1578ms",
+        "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1580ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1717ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1764ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 2066ms",
+        "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 2254ms",
+        "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3940ms",
+        "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 5475ms"
+      ],
+      "default": "⚡ Самый быстрый"
+    },
+    {
+      "type": "urltest",
+      "tag": "⚡ Самый быстрый",
+      "outbounds": [
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 383ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 387ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 389ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 433ms",
+        "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 435ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 529ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms",
+        "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 739ms",
+        "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 803ms",
+        "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 804ms",
+        "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 804ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 876ms",
+        "🇷🇺 [Rjsxrd] VLESS (max.ru) | YouTube 947ms",
+        "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1020ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1083ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1087ms",
+        "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 1102ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1128ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1130ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1135ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1135ms",
+        "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1136ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1137ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1144ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1216ms",
+        "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 1238ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1247ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1306ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1394ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1396ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1397ms",
+        "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1410ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1424ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1426ms",
+        "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1432ms",
+        "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 1525ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1578ms",
+        "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1580ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1717ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1764ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 2066ms",
+        "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 2254ms",
+        "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3940ms",
+        "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 5475ms"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "🇷🇺 Белые списки (БС)",
+      "outbounds": [
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 383ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 387ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 389ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 433ms",
+        "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 435ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 529ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms",
+        "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 739ms",
+        "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 803ms",
+        "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 804ms",
+        "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 804ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 876ms",
+        "🇷🇺 [Rjsxrd] VLESS (max.ru) | YouTube 947ms",
+        "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1020ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1083ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1087ms",
+        "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 1102ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1128ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1130ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1135ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1135ms",
+        "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1136ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1137ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1144ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1216ms",
+        "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 1238ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1247ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1306ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1394ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1396ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1397ms",
+        "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1410ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1424ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1426ms",
+        "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1432ms",
+        "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 1525ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1578ms",
+        "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1580ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1717ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1764ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+        "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 2066ms",
+        "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 2254ms",
+        "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3940ms",
+        "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 5475ms"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "fallback",
+      "outbounds": [
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 383ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 387ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 389ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 433ms",
+        "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 435ms",
+        "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 383ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "741f4107-d5bb-406e-9e88-d27103da54a7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 387ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "910bd15d-b69c-48d9-8251-cfbbd6546a7c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 389ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "e72d4bf7-4c20-4853-ad59-d7274af5dee7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 433ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "e7b99eba-0634-4079-97fa-c54ba5479474",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 435ms",
+      "server": "5.45.100.100",
+      "server_port": 51511,
+      "password": "miaoge110",
+      "tls": {
+        "enabled": true,
+        "server_name": "5.45.100.100",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "f6f4d2c7-880a-4622-a821-fd34c725e655",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 529ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "ef6488f7-bc0f-4496-a32f-7ade4c3343c6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "52a9eb94-bbf7-4037-b939-c298a1860a1f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 739ms",
+      "server": "45.38.143.210",
+      "server_port": 30584,
+      "uuid": "cebc5f19-18d9-48e6-9029-fb4b04caf393",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y",
+          "short_id": "67ece882d65d0f1a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 803ms",
+      "server": "193.23.218.107",
+      "server_port": 443,
+      "uuid": "6f433cf6-4221-48b2-ad29-01121952ef8a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cBTZdCBwrYTTarw6B_lu2TN1M6_Lku68FfWCQT9svhc",
+          "short_id": "cb620aa2f04bce33"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 804ms",
+      "server": "185.95.231.156",
+      "server_port": 443,
+      "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+          "short_id": "a3a578ab"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 804ms",
+      "server": "88.216.195.188",
+      "server_port": 443,
+      "password": "63e1b9462d708b56d5d5a0267cffecdc",
+      "tls": {
+        "enabled": true,
+        "server_name": "promo3.goonars.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 876ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "23283bcf-a1ae-415d-9f15-3b30defeee1e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Rjsxrd] VLESS (max.ru) | YouTube 947ms",
+      "server": "72.56.241.230",
+      "server_port": 443,
+      "uuid": "88b744bb-8ac7-484e-a376-136193452a2c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SCQ-mhDUvmeQzJvctQYDDSha1R_rggGFkWK_9IRuvH4",
+          "short_id": "aabbccdd"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.StreamService"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1020ms",
+      "server": "promo3.goonars.com",
+      "server_port": 443,
+      "password": "63e1b9462d708b56d5d5a0267cffecdc",
+      "tls": {
+        "enabled": true,
+        "server_name": "promo3.goonars.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1083ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "4b58721f-999f-4262-8e36-7af7ce4bfe8e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1087ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "f101653b-7e1a-407c-b166-a7a40ab34a80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 1102ms",
+      "server": "178.172.227.228",
+      "server_port": 10444,
+      "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "short_id": "8debcf36f1cc69ff"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1128ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "965325db-aadd-453b-afa9-d2b2002cc746",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1130ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "85c1becc-fcd2-47ca-b8e7-6d0d30f3cd13",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "ab9324ba-0415-4cf8-a40c-e4b493d3d939",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "de7db915-4153-49d6-b036-51a8f7ced723",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1133ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "754aa943-ab43-41ec-9791-c0e77d9fbfef",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1135ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "cff462b8-bf0e-41ee-8d45-13048c463a0f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1135ms",
+      "server": "23.95.222.127",
+      "server_port": 8443,
+      "uuid": "352ff568-f971-4613-bf48-92997a5d44ed",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU",
+          "short_id": "35cd899f8de04801"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1136ms",
+      "server": "154.29.159.211",
+      "server_port": 26763,
+      "uuid": "d3f0d021-6a98-43c1-ba26-b75bd0d145f0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9tgCHwsQFN0j6FaMsAeJN8TSD2qQFnX6JdTaEdp8TRU",
+          "short_id": "b72b5eed"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1137ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "b7065844-31ff-4f4d-a6f7-42a38d09bed2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1144ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "99efa3ab-5dd3-4395-b05c-e9c6382298eb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1216ms",
+      "server": "3.0.111.82",
+      "server_port": 10574,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 1238ms",
+      "server": "193.163.203.170",
+      "server_port": 443,
+      "uuid": "11aabba0-5fd1-4f15-8068-74c1a466cefc",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o",
+          "short_id": "b28db60d77c50b4f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1247ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "d3117332-c109-48ea-9125-954999131651",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1306ms",
+      "server": "3.0.111.82",
+      "server_port": 12972,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms",
+      "server": "3.0.111.82",
+      "server_port": 17623,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1394ms",
+      "server": "3.114.220.22",
+      "server_port": 19645,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1396ms",
+      "server": "3.114.220.22",
+      "server_port": 18007,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1397ms",
+      "server": "3.114.220.22",
+      "server_port": 10583,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1410ms",
+      "server": "36a466g.fi1.h1clayd.click",
+      "server_port": 443,
+      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "36a466g.fi1.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+          "short_id": "b3c9d0c6bdd114a6"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "0adb9638509b"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1424ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "117a94af-00b3-44cb-b82d-fb005276ec8b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1426ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "c1b0398a-a1a7-40ae-8d14-3f271c4b8f76",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1432ms",
+      "server": "147.93.173.45",
+      "server_port": 10444,
+      "uuid": "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "short_id": "8debcf36f1cc69ff"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 1525ms",
+      "server": "94.228.162.222",
+      "server_port": 443,
+      "uuid": "a9fe0131-af95-4599-bc7f-7205479ec7c7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "vena.solomon-planet.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1578ms",
+      "server": "3.39.4.109",
+      "server_port": 18967,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1580ms",
+      "server": "5.42.99.64",
+      "server_port": 8443,
+      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "du-rov.secureservice.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+          "short_id": "3cbc3d737fb9c4af"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1717ms",
+      "server": "3.39.4.109",
+      "server_port": 13672,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1764ms",
+      "server": "94.156.79.93",
+      "server_port": 443,
+      "uuid": "1a5e7720-abf3-4b9b-bc9b-9a900a04b434",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg",
+          "short_id": "f129dcdbf64f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "87b082bd-76c7-42e9-b66a-746899ac567e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1974ms",
+      "server": "79.141.164.81",
+      "server_port": 443,
+      "uuid": "c419edf5-45b0-44cb-94dd-c66f9b395260",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nla.kosmosapp.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ",
+          "short_id": "27350908de933e09"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "neurex"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 2066ms",
+      "server": "54.251.9.130",
+      "server_port": 24146,
+      "uuid": "9d9a048b-3aea-4b3e-b106-1106bf301feb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo",
+          "short_id": "7205d9079521832c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 2254ms",
+      "server": "62.105.220.106",
+      "server_port": 443,
+      "uuid": "30e52776-55ac-3cb4-8d36-e2910f07e2c3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s170.gogocs.xyz",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3940ms",
+      "server": "xray2-direct-mci1-fs-ce.freesocks.work",
+      "server_port": 443,
+      "uuid": "3b002dc2-fd76-4eca-b6cd-7459ecca765e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 5475ms",
+      "server": "147.45.108.45",
+      "server_port": 443,
+      "uuid": "Fluffy_VPN-zKZUa4Ie",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "absolute-disaster.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g",
+          "short_id": ""
+        }
+      }
+    }
+  ],
+  "route": {
+    "final": "select",
+    "rules": [
+      {
+        "domain_suffix": [
+          ".ru",
+          ".su",
+          ".рф"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      }
+    ]
+  }
+}
