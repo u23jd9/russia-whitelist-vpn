@@ -3,8 +3,8 @@
 > **Автоматически валидированный каталог серверов для работы в белых списках мобильных операторов РФ и обхода DPI.**
 > Все серверы протестированы на сквозное соединение с **YouTube** и ресурсами Google.
 
-📅 **Последнее обновление:** `2026-11-02 11:59:47 UTC`  
-⚡ **Проверенных рабочих серверов:** `56` шт. (из них строго в БС: `56` шт.)
+📅 **Последнее обновление:** `2026-11-02 13:27:17 UTC`  
+⚡ **Проверенных рабочих серверов:** `54` шт. (из них строго в БС: `54` шт.)
 
 ---
 
@@ -30,7 +30,7 @@
 | 3 | **WL RUS (БС)** | `БС` | 0 | [bywarm](https://gitverse.ru/bywarm/rser) |
 | 4 | **WL RUS (ЧС)** | `ЧС` | 0 | [bywarm](https://gitverse.ru/bywarm/rser) |
 | 5 | **RoGo (БС)** | `БС` | 0 | [RoGo](https://gitverse.ru/RoGo/mobile-whitelist) |
-| 6 | **Akres** | `Универсальный` | **25** | [theakres](https://github.com/theakres/VPN) |
+| 6 | **Akres** | `Универсальный` | **26** | [theakres](https://github.com/theakres/VPN) |
 | 7 | **Игарëк (БС)** | `БС` | 0 | [igareck](https://github.com/igareck/vpn-configs-for-russia) |
 | 8 | **Игарëк (ЧС)** | `ЧС` | 0 | [igareck](https://github.com/igareck/vpn-configs-for-russia) |
 | 9 | **Zieng2** | `БС` | 0 | [zieng2](https://github.com/zieng2/wl) |
@@ -45,18 +45,18 @@
 | 18 | **Luxxuria** | `Non-RU` | 0 | [luxxuria](https://github.com/luxxuria/harvester) |
 | 19 | **Severny LTE** | `LTE БС` | 0 | [Severny](https://tri.su/nwkL7) |
 | 20 | **Shatak** | `RU VLESS` | 0 | [ShatakVPN](https://github.com/ShatakVPN/ConfigForge-V2Ray) |
-| 21 | **Ghost** | `БС` | **4** | [ewecrow78-gif](https://github.com/ewecrow78-gif/whitelist1) |
+| 21 | **Ghost** | `БС` | 0 | [ewecrow78-gif](https://github.com/ewecrow78-gif/whitelist1) |
 | 22 | **VPN From Kirill** | `Free` | 0 | [Kirill](https://free.vpn-from-kirill.workers.dev/) |
-| 23 | **HardVPN** | `LTE БС` | **7** | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
+| 23 | **HardVPN** | `LTE БС` | **8** | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
 | 24 | **MobilVPN** | `Gist` | 0 | [MobilVPN](https://gist.github.com/MobilVPN) |
 | 25 | **Vlesstrojan** | `RU White All` | 0 | [kort0881](https://github.com/kort0881/vpn-checker-backend) |
 | 26 | **Kizяк (БС)** | `БС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 27 | **Kizяк (ЧС)** | `ЧС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 28 | **Gidroksi (БС)** | `БС` | 0 | [gidro](https://gitverse.ru/gidro/white) |
 | 29 | **Gidroksi (ЧС)** | `ЧС` | 0 | [gidro](https://gidroksi.fun) |
-| 30 | **Apex (БС)** | `БС` | **12** | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
+| 30 | **Apex (БС)** | `БС` | **13** | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 31 | **Apex (ЧС)** | `ЧС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
-| 32 | **Aetris (БС)** | `БС` | **1** | [flaafix](https://github.com/flaafix/AetrisVPN-white-list-lite) |
+| 32 | **Aetris (БС)** | `БС` | **2** | [flaafix](https://github.com/flaafix/AetrisVPN-white-list-lite) |
 | 33 | **Aetris (ЧС)** | `ЧС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-black-list) |
 | 34 | **sch2VPN** | `Normal` | 0 | [sch2VPN](https://happy-decoder.cc) |
 | 35 | **v2crackNG sub** | `Subs` | 0 | [Junify](https://junify.fun) |
@@ -170,7 +170,7 @@
 | 143 | **B3B3097/paraser (sub_bs_top_ping.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 144 | **B3B3097/paraser (sub_250_20bs.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 145 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
-| 146 | **B3B3097/paraser (valid_whitelist_links.txt)** | `GitHub БС` | **7** | [B3B3097](https://github.com/B3B3097/paraser) |
+| 146 | **B3B3097/paraser (valid_whitelist_links.txt)** | `GitHub БС` | **5** | [B3B3097](https://github.com/B3B3097/paraser) |
 | 147 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 148 | **B3B3097/paraser (v2ray_sub.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 149 | **B3B3097/paraser (valid_internet_links.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
