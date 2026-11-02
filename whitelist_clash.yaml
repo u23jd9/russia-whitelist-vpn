@@ -1,7 +1,7 @@
 # ============================================================
 # DELETEYOURVPN - Verified Russian Whitelist & Bypass Proxies
-# Generated: 2026-11-01 20:29:31 UTC
-# Total Working Nodes: 51 (Tested with YouTube)
+# Generated: 2026-11-02 11:59:47 UTC
+# Total Working Nodes: 56 (Tested with YouTube)
 # ============================================================
 port: 7890
 socks-port: 7891
@@ -25,197 +25,7 @@ dns:
     - https://1.1.1.1/dns-query
 
 proxies:
-  - name: "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 485ms"
-    type: hysteria2
-    server: 5.45.100.100
-    port: 51511
-    password: "miaoge110"
-    sni: 5.45.100.100
-    skip-cert-verify: true
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "e72d4bf7-4c20-4853-ad59-d7274af5dee7"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 526ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "4b58721f-999f-4262-8e36-7af7ce4bfe8e"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 533ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "c1b0398a-a1a7-40ae-8d14-3f271c4b8f76"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 534ms"
-    type: vless
-    server: 193.23.218.107
-    port: 443
-    uuid: "6f433cf6-4221-48b2-ad29-01121952ef8a"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yandex.ru
-    reality-opts:
-      public-key: cBTZdCBwrYTTarw6B_lu2TN1M6_Lku68FfWCQT9svhc
-      short-id: "cb620aa2f04bce33"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 624ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "52a9eb94-bbf7-4037-b939-c298a1860a1f"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "f6f4d2c7-880a-4622-a821-fd34c725e655"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "965325db-aadd-453b-afa9-d2b2002cc746"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "f101653b-7e1a-407c-b166-a7a40ab34a80"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "c419edf5-45b0-44cb-94dd-c66f9b395260"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "85c1becc-fcd2-47ca-b8e7-6d0d30f3cd13"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "741f4107-d5bb-406e-9e88-d27103da54a7"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 628ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "99efa3ab-5dd3-4395-b05c-e9c6382298eb"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 629ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "e7b99eba-0634-4079-97fa-c54ba5479474"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "ab9324ba-0415-4cf8-a40c-e4b493d3d939"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 338ms"
     type: vless
     server: 79.141.164.81
     port: 443
@@ -228,11 +38,25 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 346ms"
+    type: vless
+    server: 83.147.18.3
+    port: 443
+    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+      short-id: "fd8cf7e1173f0edb"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
     type: vless
     server: 79.141.164.81
     port: 443
-    uuid: "910bd15d-b69c-48d9-8251-cfbbd6546a7c"
+    uuid: "ab9324ba-0415-4cf8-a40c-e4b493d3d939"
     network: grpc
     tls: true
     udp: true
@@ -241,7 +65,20 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 719ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "85c1becc-fcd2-47ca-b8e7-6d0d30f3cd13"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 356ms"
     type: vless
     server: 79.141.164.81
     port: 443
@@ -254,24 +91,11 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 724ms"
-    type: vless
-    server: 94.228.162.222
-    port: 443
-    uuid: "a9fe0131-af95-4599-bc7f-7205479ec7c7"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vena.solomon-planet.ru
-    reality-opts:
-      public-key: rvDa0xNkcJYEIJ-1Ncrq54BUjjwm99C_8Vv_-He6j1U
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 808ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 365ms"
     type: vless
     server: 79.141.164.81
     port: 443
-    uuid: "754aa943-ab43-41ec-9791-c0e77d9fbfef"
+    uuid: "f101653b-7e1a-407c-b166-a7a40ab34a80"
     network: grpc
     tls: true
     udp: true
@@ -280,7 +104,7 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 812ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
     type: vless
     server: 79.141.164.81
     port: 443
@@ -293,196 +117,11 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 817ms"
-    type: vless
-    server: 185.95.231.156
-    port: 443
-    uuid: "1f8cf47a-b66a-4916-979f-26edfcf44eea"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
-      short-id: "a3a578ab"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 818ms"
-    type: hysteria2
-    server: 88.216.195.188
-    port: 443
-    password: "63e1b9462d708b56d5d5a0267cffecdc"
-    sni: promo3.goonars.com
-    skip-cert-verify: true
-  - name: "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 897ms"
-    type: vless
-    server: 178.172.227.228
-    port: 10444
-    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    reality-opts:
-      public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-      short-id: "8debcf36f1cc69ff"
-    client-fingerprint: qq
-  - name: "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 915ms"
-    type: vless
-    server: 193.163.203.170
-    port: 443
-    uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yandex.ru
-    reality-opts:
-      public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-      short-id: "b28db60d77c50b4f"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 1022ms"
-    type: vless
-    server: 62.105.220.106
-    port: 443
-    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: s170.gogocs.xyz
-  - name: "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1037ms"
-    type: vless
-    server: 154.29.159.211
-    port: 26763
-    uuid: "d3f0d021-6a98-43c1-ba26-b75bd0d145f0"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    reality-opts:
-      public-key: 9tgCHwsQFN0j6FaMsAeJN8TSD2qQFnX6JdTaEdp8TRU
-      short-id: "b72b5eed"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1051ms"
-    type: hysteria2
-    server: promo3.goonars.com
-    port: 443
-    password: "63e1b9462d708b56d5d5a0267cffecdc"
-    sni: promo3.goonars.com
-    skip-cert-verify: true
-  - name: "🇷🇺 [RKP (ЧС)] TROJAN (br001.zestapp778.com) | YouTube 1190ms"
-    type: trojan
-    server: 216.238.116.204
-    port: 39533
-    password: "5t6i121em5lkmsmk"
-    udp: true
-    sni: br001.zestapp778.com
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1265ms"
-    type: vless
-    server: 3.0.111.82
-    port: 12972
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1350ms"
-    type: vless
-    server: 54.251.9.130
-    port: 24146
-    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.intel.com
-    reality-opts:
-      public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-      short-id: "7205d9079521832c"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1351ms"
-    type: vless
-    server: 23.95.222.127
-    port: 8443
-    uuid: "352ff568-f971-4613-bf48-92997a5d44ed"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
-      short-id: "35cd899f8de04801"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1352ms"
-    type: vless
-    server: 3.0.111.82
-    port: 10574
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1359ms"
-    type: vless
-    server: 3.0.111.82
-    port: 17623
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms"
-    type: vless
-    server: 3.114.220.22
-    port: 10583
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1472ms"
-    type: vless
-    server: 5.42.99.64
-    port: 8443
-    uuid: "c53ea5e9-ed8b-4990-805d-7f1d6451426c"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: du-rov.secureservice.top
-    reality-opts:
-      public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
-      short-id: "3cbc3d737fb9c4af"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1551ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
     type: vless
     server: 79.141.164.81
     port: 443
-    uuid: "cff462b8-bf0e-41ee-8d45-13048c463a0f"
+    uuid: "e72d4bf7-4c20-4853-ad59-d7274af5dee7"
     network: grpc
     tls: true
     udp: true
@@ -491,25 +130,11 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1559ms"
-    type: vless
-    server: server.slavkiti.monster
-    port: 443
-    uuid: "6dfc9149-1ff9-41c3-8563-0ef284381731"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.tradingview.com
-    reality-opts:
-      public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-      short-id: "1374bddeb25d"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 376ms"
     type: vless
     server: 79.141.164.81
     port: 443
-    uuid: "23283bcf-a1ae-415d-9f15-3b30defeee1e"
+    uuid: "c1b0398a-a1a7-40ae-8d14-3f271c4b8f76"
     network: grpc
     tls: true
     udp: true
@@ -518,7 +143,228 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 379ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "818b6985-683d-4986-9899-986710736fea"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 388ms"
+    type: vless
+    server: 45.90.59.15
+    port: 443
+    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
+      short-id: "19253fae84102271"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 410ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "754aa943-ab43-41ec-9791-c0e77d9fbfef"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 417ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "52a9eb94-bbf7-4037-b939-c298a1860a1f"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 481ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "c419edf5-45b0-44cb-94dd-c66f9b395260"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+    type: vless
+    server: 195.123.213.28
+    port: 443
+    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
+      short-id: "5c256336e3b673fa"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+    type: vless
+    server: 46.28.71.247
+    port: 443
+    uuid: "12c53e32-e589-47d6-b857-e4132294f767"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
+      short-id: "0dfc23fe80778c00"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 495ms"
+    type: vless
+    server: ov-france1.09vpn.com
+    port: 80
+    uuid: "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1"
+    network: ws
+    tls: true
+    udp: true
+  - name: "🇷🇺 [Akres] VLESS (api-maps.yandex.ru) | YouTube 497ms"
+    type: vless
+    server: 130.17.18.204
+    port: 8443
+    uuid: "9c6e83fc-b755-4ad4-9b0a-14b610153d8f"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: 2KR7JfMfxzaUqtSFXUP_8VRCnvfpyUQqfsKATK-VpgI
+      short-id: "7f38f12ada698251"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 507ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "4b58721f-999f-4262-8e36-7af7ce4bfe8e"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 515ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "99efa3ab-5dd3-4395-b05c-e9c6382298eb"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 521ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "f6f4d2c7-880a-4622-a821-fd34c725e655"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 534ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "e7b99eba-0634-4079-97fa-c54ba5479474"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 575ms"
+    type: vless
+    server: 82.118.19.153
+    port: 443
+    uuid: "adcaa148-7c66-4282-a81a-99ec8afa029d"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+      short-id: "670ed9f350bd8ee0"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 586ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "741f4107-d5bb-406e-9e88-d27103da54a7"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 598ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "965325db-aadd-453b-afa9-d2b2002cc746"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Ghost] VLESS (xnodtwx.artemida.live) | YouTube 612ms"
+    type: vless
+    server: 188.225.83.133
+    port: 443
+    uuid: "5f1c2e83-d4aa-4f10-81e9-e0ccc018974c"
+    network: grpc
+    tls: true
+    udp: true
+    servername: xnodtwx.artemida.live
+    reality-opts:
+      public-key: JqmkP6Fys7jN2Fu1iDJuWKVNPhlgHfy_pj1DHFVKVhw
+      short-id: "a1b2c3d4e5f6a7b8"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 613ms"
     type: vless
     server: 79.141.164.81
     port: 443
@@ -531,157 +377,303 @@ proxies:
       public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
       short-id: "27350908de933e09"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1647ms"
+  - name: "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 613ms"
     type: vless
-    server: 94.156.79.93
+    server: 185.95.231.156
     port: 443
-    uuid: "1a5e7720-abf3-4b9b-bc9b-9a900a04b434"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.microsoft.com
-    reality-opts:
-      public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
-      short-id: "f129dcdbf64f"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1652ms"
-    type: vless
-    server: server.slavkiti.monster
-    port: 443
-    uuid: "4d017db2-7655-4276-9557-e2ec25b04ee7"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.tradingview.com
-    reality-opts:
-      public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-      short-id: "ee1716767f9b"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1819ms"
-    type: vless
-    server: 3.39.4.109
-    port: 13672
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    uuid: "1f8cf47a-b66a-4916-979f-26edfcf44eea"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     servername: www.apple.com
     reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
+      public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+      short-id: "a3a578ab"
     client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1888ms"
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 617ms"
     type: vless
-    server: 3.39.4.109
-    port: 18967
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
+    server: ov-france1.09vpn.com
+    port: 80
+    uuid: "25f86cb1-2140-4085-abcb-c3a0ea7a4be0"
+    network: ws
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1893ms"
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 618ms"
     type: vless
-    server: 147.93.173.45
-    port: 10444
-    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: video.yandex.ru
-    reality-opts:
-      public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-      short-id: "8debcf36f1cc69ff"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [RaViraNet] VLESS (passport.yandex.ru) | YouTube 2103ms"
-    type: vless
-    server: ww3.levikogjgfdd.ir
+    server: 167.17.69.171
     port: 443
-    uuid: "b81b4d1b-7f20-48f1-82dc-d24bef898cab"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: passport.yandex.ru
-    reality-opts:
-      public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-      short-id: "e6"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2248ms"
-    type: vless
-    server: 3.114.220.22
-    port: 19645
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2249ms"
-    type: vless
-    server: 3.114.220.22
-    port: 18007
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3018ms"
-    type: vless
-    server: 85.90.197.220
-    port: 443
-    uuid: "8f704ed6-9a1a-4d04-94dd-1bff501716de"
+    uuid: "00144519-7e0d-476b-8d28-435576af9262"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     servername: www.cloudflare.com
     reality-opts:
-      public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
-      short-id: "94acb54627612d43"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3026ms"
+      public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+      short-id: "0990d22f"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms"
     type: vless
-    server: xray2-direct-mci1-fs-ce.freesocks.work
+    server: 79.141.164.81
     port: 443
-    uuid: "3b002dc2-fd76-4eca-b6cd-7459ecca765e"
+    uuid: "ef6488f7-bc0f-4496-a32f-7ade4c3343c6"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 679ms"
+    type: hysteria2
+    server: 88.216.195.188
+    port: 443
+    password: "63e1b9462d708b56d5d5a0267cffecdc"
+    sni: promo3.goonars.com
+    skip-cert-verify: true
+  - name: "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 694ms"
+    type: trojan
+    server: 216.152.156.42
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: "🇷🇺 [Apex (БС)] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 774ms"
+    type: trojan
+    server: 216.152.155.54
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: learn.nextjobopportunityandclaimyouridealrole.com
+  - name: "🇷🇺 [Apex (БС)] TROJAN (blog.nextjobopportunityandclaimyouridealrole.com) | YouTube 784ms"
+    type: trojan
+    server: 216.152.155.176
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: blog.nextjobopportunityandclaimyouridealrole.com
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 801ms"
+    type: vless
+    server: ov-germany1.09vpn.com
+    port: 8443
+    uuid: "7d74eae4-8a06-4306-a923-ad686f30bf26"
+    network: ws
+    tls: true
+    udp: true
+    servername: ov-germany1.09vpn.com
+  - name: "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 884ms"
+    type: trojan
+    server: 216.152.156.65
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 898ms"
+    type: vless
+    server: 81.208.170.142
+    port: 1500
+    uuid: "e332f028-d343-5b44-8016-b3130f39e133"
+    network: grpc
+    tls: true
+    udp: true
+    servername: www.ebay.com
+    reality-opts:
+      public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+      short-id: "775eb6408888248e"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 903ms"
+    type: trojan
+    server: 216.238.80.100
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: connectwithtopemployersandfindidealjobs.com
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 951ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "cff462b8-bf0e-41ee-8d45-13048c463a0f"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1009ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "117a94af-00b3-44cb-b82d-fb005276ec8b"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1011ms"
+    type: vless
+    server: 79.141.164.81
+    port: 443
+    uuid: "910bd15d-b69c-48d9-8251-cfbbd6546a7c"
+    network: grpc
+    tls: true
+    udp: true
+    servername: nla.kosmosapp.net
+    reality-opts:
+      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
+      short-id: "27350908de933e09"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 1051ms"
+    type: vless
+    server: 72.56.4.84
+    port: 443
+    uuid: "Fluffy_VPN-zKZUa4Ie"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: dl.google.com
+    servername: absolute-disaster.org
     reality-opts:
-      public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 4420ms"
+      public-key: Im1i3eUtm7uDxUOA0rNWef9bILxsBvK_ElfejZTpQW0
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Apex (БС)] VLESS (www.cloudflare.com) | YouTube 1052ms"
     type: vless
-    server: 45.38.143.210
-    port: 30584
-    uuid: "cebc5f19-18d9-48e6-9029-fb4b04caf393"
+    server: 145.223.68.58
+    port: 443
+    uuid: "edb50d20-2d3e-4c1e-8a75-a17168a89aa5"
     network: tcp
     tls: true
     udp: true
-    servername: m.vk.com
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
     reality-opts:
-      public-key: 2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y
-      short-id: "67ece882d65d0f1a"
+      public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
+      short-id: "a44ff7d2e80213c2"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ul-mexico1.09vpn.com) | YouTube 1227ms"
+    type: vless
+    server: ul-mexico1.09vpn.com
+    port: 8443
+    uuid: "a6d20e79-d326-42c1-bc20-f4cecc6dc42d"
+    network: ws
+    tls: true
+    udp: true
+    servername: ul-mexico1.09vpn.com
+  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 1258ms"
+    type: vless
+    server: 47.251.108.158
+    port: 443
+    uuid: "975fc322-6e38-434b-a53c-d39fed49b9a9"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+      short-id: "896f52ba2cfca903"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1384ms"
+    type: vless
+    server: 38.107.236.166
+    port: 8443
+    uuid: "48572af1-d091-457b-a86e-4a457e99927f"
+    network: ws
+    tls: true
+    udp: true
+    servername: 3h-unitedstates3.09vpn.com
+  - name: "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1728ms"
+    type: trojan
+    server: 216.152.156.49
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: "🇷🇺 [Apex (БС)] TROJAN (courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1729ms"
+    type: trojan
+    server: 216.152.156.212
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  - name: "🇷🇺 [Apex (БС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 1864ms"
+    type: trojan
+    server: 216.152.155.23
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: courses.nextjobopportunityandclaimyouridealrole.com
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 2308ms"
+    type: vless
+    server: 3h-unitedstates3.09vpn.com
+    port: 8443
+    uuid: "48572af1-d091-457b-a86e-4a457e99927f"
+    network: ws
+    tls: true
+    udp: true
+    servername: 3h-unitedstates3.09vpn.com
+  - name: "🇷🇺 [Aetris (БС)] VLESS (a0688bt.us4.h1clayd.click) | YouTube 3080ms"
+    type: vless
+    server: 87.228.92.124
+    port: 443
+    uuid: "056405e8-de9f-4d0d-8145-956f13cc34da"
+    network: tcp
+    tls: true
+    udp: true
+    servername: a0688bt.us4.h1clayd.click
+    reality-opts:
+      public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
+      short-id: "257420d9d430152a"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Ghost] VLESS (www.samsung.com) | YouTube 4114ms"
+    type: vless
+    server: tr2.h1cloud.net
+    port: 25021
+    uuid: "2446e2e2-1ce3-4502-9050-1dd32bacc68c"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.samsung.com
+    reality-opts:
+      public-key: od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg
+      short-id: "17fa3af0924c88b3"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Apex (БС)] TROJAN (api.nextjobopportunityandclaimyouridealrole.com) | YouTube 4169ms"
+    type: trojan
+    server: 216.152.155.59
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: api.nextjobopportunityandclaimyouridealrole.com
+  - name: "🇷🇺 [Ghost] VLESS (lorettmay.top) | YouTube 5251ms"
+    type: vless
+    server: lorettmay.top
+    port: 443
+    uuid: "2232d904-8e6a-4202-8240-6efd8aec02e9"
+    network: ws
+    tls: true
+    udp: true
+    servername: lorettmay.top
+  - name: "🇷🇺 [Ghost] VLESS (net.formatgo.ru) | YouTube 6311ms"
+    type: vless
+    server: 200.169.184.168
+    port: 443
+    uuid: "6036c28a-8db2-432e-8118-ff0c16641ad0"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: net.formatgo.ru
+    reality-opts:
+      public-key: QnaizqXrXA0e4XihP_5Nf1z1aOOf0obBoyJ8QY_03kw
+      short-id: "9d0e1b6bf9c5eddb"
     client-fingerprint: firefox
 
 proxy-groups:
@@ -692,57 +684,62 @@ proxy-groups:
       - 🇷🇺 Только Белые Списки (БС)
       - 🛡️ Fallback
       - DIRECT
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 485ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 526ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 533ms"
-      - "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 534ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 624ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 628ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 629ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 719ms"
-      - "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 724ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 808ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 812ms"
-      - "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 817ms"
-      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 818ms"
-      - "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 897ms"
-      - "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 915ms"
-      - "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 1022ms"
-      - "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1037ms"
-      - "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1051ms"
-      - "🇷🇺 [RKP (ЧС)] TROJAN (br001.zestapp778.com) | YouTube 1190ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1265ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1350ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1351ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1352ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1359ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms"
-      - "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1472ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1551ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1559ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1647ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1652ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1819ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1888ms"
-      - "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1893ms"
-      - "🇷🇺 [RaViraNet] VLESS (passport.yandex.ru) | YouTube 2103ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2248ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2249ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3018ms"
-      - "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3026ms"
-      - "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 4420ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 338ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 346ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 356ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 365ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 376ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 379ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 388ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 410ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 417ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 481ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 495ms"
+      - "🇷🇺 [Akres] VLESS (api-maps.yandex.ru) | YouTube 497ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 507ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 515ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 521ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 534ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 575ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 586ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 598ms"
+      - "🇷🇺 [Ghost] VLESS (xnodtwx.artemida.live) | YouTube 612ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 613ms"
+      - "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 613ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 617ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 618ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms"
+      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 679ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 694ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 774ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (blog.nextjobopportunityandclaimyouridealrole.com) | YouTube 784ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 801ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 884ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 898ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 903ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 951ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1009ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1011ms"
+      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 1051ms"
+      - "🇷🇺 [Apex (БС)] VLESS (www.cloudflare.com) | YouTube 1052ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ul-mexico1.09vpn.com) | YouTube 1227ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 1258ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1384ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1728ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1729ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 1864ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 2308ms"
+      - "🇷🇺 [Aetris (БС)] VLESS (a0688bt.us4.h1clayd.click) | YouTube 3080ms"
+      - "🇷🇺 [Ghost] VLESS (www.samsung.com) | YouTube 4114ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (api.nextjobopportunityandclaimyouridealrole.com) | YouTube 4169ms"
+      - "🇷🇺 [Ghost] VLESS (lorettmay.top) | YouTube 5251ms"
+      - "🇷🇺 [Ghost] VLESS (net.formatgo.ru) | YouTube 6311ms"
 
   - name: ⚡ Самый быстрый (URL-Test)
     type: url-test
@@ -750,57 +747,62 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 485ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 526ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 533ms"
-      - "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 534ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 624ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 628ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 629ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 719ms"
-      - "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 724ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 808ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 812ms"
-      - "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 817ms"
-      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 818ms"
-      - "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 897ms"
-      - "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 915ms"
-      - "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 1022ms"
-      - "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1037ms"
-      - "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1051ms"
-      - "🇷🇺 [RKP (ЧС)] TROJAN (br001.zestapp778.com) | YouTube 1190ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1265ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1350ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1351ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1352ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1359ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms"
-      - "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1472ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1551ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1559ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1647ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1652ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1819ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1888ms"
-      - "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1893ms"
-      - "🇷🇺 [RaViraNet] VLESS (passport.yandex.ru) | YouTube 2103ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2248ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2249ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3018ms"
-      - "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3026ms"
-      - "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 4420ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 338ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 346ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 356ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 365ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 376ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 379ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 388ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 410ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 417ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 481ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 495ms"
+      - "🇷🇺 [Akres] VLESS (api-maps.yandex.ru) | YouTube 497ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 507ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 515ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 521ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 534ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 575ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 586ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 598ms"
+      - "🇷🇺 [Ghost] VLESS (xnodtwx.artemida.live) | YouTube 612ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 613ms"
+      - "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 613ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 617ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 618ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms"
+      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 679ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 694ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 774ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (blog.nextjobopportunityandclaimyouridealrole.com) | YouTube 784ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 801ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 884ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 898ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 903ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 951ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1009ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1011ms"
+      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 1051ms"
+      - "🇷🇺 [Apex (БС)] VLESS (www.cloudflare.com) | YouTube 1052ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ul-mexico1.09vpn.com) | YouTube 1227ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 1258ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1384ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1728ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1729ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 1864ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 2308ms"
+      - "🇷🇺 [Aetris (БС)] VLESS (a0688bt.us4.h1clayd.click) | YouTube 3080ms"
+      - "🇷🇺 [Ghost] VLESS (www.samsung.com) | YouTube 4114ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (api.nextjobopportunityandclaimyouridealrole.com) | YouTube 4169ms"
+      - "🇷🇺 [Ghost] VLESS (lorettmay.top) | YouTube 5251ms"
+      - "🇷🇺 [Ghost] VLESS (net.formatgo.ru) | YouTube 6311ms"
 
   - name: 🇷🇺 Только Белые Списки (БС)
     type: url-test
@@ -808,71 +810,76 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 485ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 526ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 533ms"
-      - "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 534ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 624ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 626ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 628ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 629ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 630ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 719ms"
-      - "🇷🇺 [Kizяк (БС)] VLESS (vena.solomon-planet.ru) | YouTube 724ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 808ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 812ms"
-      - "🇷🇺 [Akres] VLESS (www.apple.com) | YouTube 817ms"
-      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 818ms"
-      - "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 897ms"
-      - "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 915ms"
-      - "🇷🇺 [Akres] VLESS (s170.gogocs.xyz) | YouTube 1022ms"
-      - "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 1037ms"
-      - "🇷🇺 [Rjsxrd] HYSTERIA2 (promo3.goonars.com) | YouTube 1051ms"
-      - "🇷🇺 [RKP (ЧС)] TROJAN (br001.zestapp778.com) | YouTube 1190ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1265ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1350ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1351ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1352ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1359ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1361ms"
-      - "🇷🇺 [Rjsxrd] VLESS (du-rov.secureservice.top) | YouTube 1472ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1551ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1559ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1580ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1647ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1652ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1819ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1888ms"
-      - "🇷🇺 [Akres] VLESS (video.yandex.ru) | YouTube 1893ms"
-      - "🇷🇺 [RaViraNet] VLESS (passport.yandex.ru) | YouTube 2103ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2248ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2249ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3018ms"
-      - "🇷🇺 [Rjsxrd] VLESS (dl.google.com) | YouTube 3026ms"
-      - "🇷🇺 [Akres] VLESS (m.vk.com) | YouTube 4420ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 338ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 346ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 356ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 365ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 376ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 379ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 388ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 410ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 417ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 481ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 495ms"
+      - "🇷🇺 [Akres] VLESS (api-maps.yandex.ru) | YouTube 497ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 507ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 515ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 521ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 534ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 575ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 586ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 598ms"
+      - "🇷🇺 [Ghost] VLESS (xnodtwx.artemida.live) | YouTube 612ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 613ms"
+      - "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 613ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 617ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 618ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 621ms"
+      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 679ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 694ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 774ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (blog.nextjobopportunityandclaimyouridealrole.com) | YouTube 784ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 801ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 884ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 898ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 903ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 951ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1009ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 1011ms"
+      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 1051ms"
+      - "🇷🇺 [Apex (БС)] VLESS (www.cloudflare.com) | YouTube 1052ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ul-mexico1.09vpn.com) | YouTube 1227ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 1258ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1384ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1728ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1729ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 1864ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 2308ms"
+      - "🇷🇺 [Aetris (БС)] VLESS (a0688bt.us4.h1clayd.click) | YouTube 3080ms"
+      - "🇷🇺 [Ghost] VLESS (www.samsung.com) | YouTube 4114ms"
+      - "🇷🇺 [Apex (БС)] TROJAN (api.nextjobopportunityandclaimyouridealrole.com) | YouTube 4169ms"
+      - "🇷🇺 [Ghost] VLESS (lorettmay.top) | YouTube 5251ms"
+      - "🇷🇺 [Ghost] VLESS (net.formatgo.ru) | YouTube 6311ms"
 
   - name: 🛡️ Fallback
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 485ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 525ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 526ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 533ms"
-      - "🇷🇺 [Akres] VLESS (yandex.ru) | YouTube 534ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 624ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
-      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 625ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 338ms"
+      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 346ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 356ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 365ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
+      - "🇷🇺 [Akres] VLESS (nla.kosmosapp.net) | YouTube 370ms"
 
 rules:
   - DOMAIN-SUFFIX,ru,DIRECT

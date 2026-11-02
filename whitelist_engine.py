@@ -122,6 +122,23 @@ SOURCES = [
     {"id": 47, "name": "Sigrid VPN sub", "category": "Bypass", "url": "https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=LoWcw85kRd%2BHRAuaIWWTGQtmHz91ER2Gsf9j8ro4aENKelQom7dBGSEIW11PuLnbJGqHulnnMD/AW2RrnHWKlWFJxvUtqF01SLDdwqY%2Bj9MB2RSD%2BDWEqu7KmBMo/8DS", "author": "Sigrid VPN", "link": "https://is.wepogp.gay"}
 ]
 
+DISCOVERED_FILE = os.path.join(WORK_DIR, "discovered_sources.json")
+
+def get_all_sources():
+    sources = list(SOURCES)
+    if os.path.exists(DISCOVERED_FILE):
+        try:
+            with open(DISCOVERED_FILE, "r", encoding="utf-8") as f:
+                discovered = json.load(f)
+            existing_urls = {s["url"] for s in sources}
+            for d in discovered:
+                if d.get("url") and d["url"] not in existing_urls:
+                    sources.append(d)
+                    existing_urls.add(d["url"])
+        except Exception as e:
+            print(f"[!] Error loading discovered sources: {e}")
+    return sources
+
 # Common Russian Whitelist Fallback Domains
 DEFAULT_WHITELIST_DOMAINS = {
     "gosuslugi.ru", "gu-st.ru", "esia.gosuslugi.ru", "mos.ru", "sberbank.ru", "tinkoff.ru",
@@ -747,7 +764,7 @@ def generate_readme(verified_items, stats_by_source):
         "| :--- | :--- | :---: | :---: | :--- |"
     ]
 
-    for s in SOURCES:
+    for s in get_all_sources():
         c = stats_by_source.get(s["name"], 0)
         c_badge = f"**{c}**" if c > 0 else "0"
         lines.append(f"| {s['id']} | **{s['name']}** | `{s['category']}` | {c_badge} | [{s['author']}]({s['link']}) |")
@@ -777,30 +794,42 @@ def run_harvest_and_test():
     matcher = WhitelistMatcher()
     matcher.load_from_web()
 
-    # 2. Harvest from 47 Sources
-    print("\n[*] Harvesting configs from 47 sources...")
+    # 2. Harvest from All Sources (Curated + Discovered)
+    all_sources = get_all_sources()
+    print(f"\n[*] Harvesting configs from {len(all_sources)} sources ({len(SOURCES)} curated + {len(all_sources)-len(SOURCES)} auto-discovered)...")
     all_configs = []
     seen_keys = set()
 
-    for s in SOURCES:
-        print(f"  -> Fetching {s['id']:02d}. {s['name']}...", end=" ", flush=True)
-        raw = fetch_url(s["url"], timeout=9)
+    def harvest_single_source(s):
+        raw = fetch_url(s["url"], timeout=8)
         if not raw:
-            print("FAILED")
-            continue
+            return (s, [])
         items = decode_subscription_payload(raw)
-        added = 0
+        parsed_items = []
         for raw_line in items:
             parsed = parse_proxy_url(raw_line, s, matcher)
-            if not parsed:
-                continue
-            key = f"{parsed['host']}:{parsed['port']}:{parsed['outbound'].get('uuid', '')}"
-            if key in seen_keys:
-                continue
-            seen_keys.add(key)
-            all_configs.append(parsed)
-            added += 1
-        print(f"OK ({added} unique nodes)")
+            if parsed:
+                parsed_items.append(parsed)
+        return (s, parsed_items)
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex:
+        future_to_src = {ex.submit(harvest_single_source, s): s for s in all_sources}
+        completed_src = 0
+        for fut in concurrent.futures.as_completed(future_to_src):
+            completed_src += 1
+            s, parsed_items = fut.result()
+            added = 0
+            for parsed in parsed_items:
+                key = f"{parsed['host']}:{parsed['port']}:{parsed['outbound'].get('uuid', '')}"
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+                all_configs.append(parsed)
+                added += 1
+            if added > 0:
+                print(f"  [✓] ({completed_src}/{len(all_sources)}) {s['name']}: {added} unique nodes")
+            elif completed_src % 25 == 0 or completed_src == len(all_sources):
+                print(f"  ... fetched {completed_src}/{len(all_sources)} sources ({len(all_configs)} unique nodes so far)")
 
     print(f"\n[+] Total unique harvested nodes: {len(all_configs)}")
     if not all_configs:
