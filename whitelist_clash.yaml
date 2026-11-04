@@ -1,7 +1,7 @@
 # ============================================================
 # DELETEYOURVPN - Verified Russian Whitelist & Bypass Proxies
-# Generated: 2026-11-03 15:49:05 UTC
-# Total Working Nodes: 52 (Tested with YouTube)
+# Generated: 2026-11-04 13:42:21 UTC
+# Total Working Nodes: 50 (Tested with YouTube)
 # ============================================================
 port: 7890
 socks-port: 7891
@@ -25,358 +25,383 @@ dns:
     - https://1.1.1.1/dns-query
 
 proxies:
-  - name: "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 340ms"
-    type: hysteria2
-    server: 5.45.100.100
-    port: 51511
-    password: "miaoge110"
-    sni: 5.45.100.100
-    skip-cert-verify: true
-  - name: "🇷🇺 [KFWL (ЧС)] VLESS (nla.kosmosapp.net) | YouTube 355ms"
+  - name: "🇷🇺 [Vlesstrojan] VLESS (akashi.vk-portal.net) | YouTube 317ms"
     type: vless
-    server: 79.141.164.81
+    server: 31.57.158.132
     port: 443
-    uuid: "910bd15d-b69c-48d9-8251-cfbbd6546a7c"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [FalerChannel/FalerChannel (README (vless.txt))] VLESS (nla.kosmosapp.net) | YouTube 375ms"
-    type: vless
-    server: 79.141.164.81
-    port: 443
-    uuid: "87b082bd-76c7-42e9-b66a-746899ac567e"
-    network: grpc
-    tls: true
-    udp: true
-    servername: nla.kosmosapp.net
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: "27350908de933e09"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
-    type: vless
-    server: 46.28.71.247
-    port: 443
-    uuid: "12c53e32-e589-47d6-b857-e4132294f767"
+    uuid: "d39019c1-b107-43f0-ad08-d6e0614aae35"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.cloudflare.com
+    servername: akashi.vk-portal.net
     reality-opts:
-      public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
-      short-id: "0dfc23fe80778c00"
+      public-key: wQdyWZChFJJgXyfQG9Ki0w8-O8RAERzerGPVAB_lpRc
+      short-id: "cb7c"
     client-fingerprint: chrome
-  - name: "🇷🇺 [Aetris (БС)] VLESS (www.nordea.fi) | YouTube 511ms"
+  - name: "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 384ms"
     type: vless
-    server: 217.144.188.185
+    server: 87.239.104.35
     port: 443
-    uuid: "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3"
+    uuid: "54cc54b2-77ad-4541-b7b6-7ac2053b60d4"
     network: tcp
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: www.nordea.fi
-    reality-opts:
-      public-key: _ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk
-    client-fingerprint: firefox
-  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 520ms"
+  - name: "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 398ms"
     type: vless
-    server: ov-germany1.09vpn.com
-    port: 8443
-    uuid: "7d74eae4-8a06-4306-a923-ad686f30bf26"
-    network: ws
-    tls: true
-    udp: true
-    servername: ov-germany1.09vpn.com
-  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 547ms"
-    type: vless
-    server: 46.28.67.55
+    server: 95.163.181.131
     port: 443
-    uuid: "d1a6a033-fdbd-46a6-a177-3370ba042b9f"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.cloudflare.com
-    reality-opts:
-      public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
-      short-id: "d06d78e974491b6e"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Apex (БС)] VLESS (play.google.com) | YouTube 587ms"
-    type: vless
-    server: 185.243.99.100
-    port: 1222
-    uuid: "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9"
-    network: tcp
-    tls: true
-    udp: true
-    servername: play.google.com
-    reality-opts:
-      public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-      short-id: "a25d0f"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 600ms"
-    type: vless
-    server: ov-france1.09vpn.com
-    port: 80
-    uuid: "25f86cb1-2140-4085-abcb-c3a0ea7a4be0"
-    network: ws
-    tls: true
-    udp: true
-  - name: "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 629ms"
-    type: vless
-    server: 185.95.231.156
-    port: 443
-    uuid: "1f8cf47a-b66a-4916-979f-26edfcf44eea"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
-      short-id: "a3a578ab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Kizяк (ЧС)] TROJAN (www.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 688ms"
-    type: trojan
-    server: 216.152.156.81
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 699ms"
-    type: trojan
-    server: 216.152.156.42
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 732ms"
-    type: vless
-    server: 178.172.227.228
-    port: 10444
-    uuid: "b6e5dc56-836f-48c1-9163-b0b0b43b647d"
+    uuid: "406d882b-4785-44b1-b486-450efaa57721"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     servername: ads.x5.ru
     reality-opts:
-      public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-      short-id: "8debcf36f1cc69ff"
-    client-fingerprint: qq
-  - name: "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 782ms"
-    type: vless
-    server: 72.56.4.84
-    port: 443
-    uuid: "Fluffy_VPN-zKZUa4Ie"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: absolute-disaster.org
-    reality-opts:
-      public-key: Im1i3eUtm7uDxUOA0rNWef9bILxsBvK_ElfejZTpQW0
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 785ms"
-    type: vless
-    server: 147.45.108.45
-    port: 443
-    uuid: "Fluffy_VPN-zKZUa4Ie"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: absolute-disaster.org
-    reality-opts:
-      public-key: IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 786ms"
-    type: hysteria2
-    server: 88.216.195.188
-    port: 443
-    password: "63e1b9462d708b56d5d5a0267cffecdc"
-    sni: promo3.goonars.com
-    skip-cert-verify: true
-  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 799ms"
-    type: vless
-    server: 209.200.246.148
-    port: 443
-    uuid: "ca52e2b6-fb9f-4dac-b6dc-49da9923f251"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.cloudflare.com
-    reality-opts:
-      public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
-      short-id: "f98843107912e782"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [KFWL (ЧС)] VLESS (max.ru) | YouTube 808ms"
-    type: vless
-    server: 195.123.189.217
-    port: 443
-    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
-    network: grpc
-    tls: true
-    udp: true
-    servername: max.ru
-    reality-opts:
-      public-key: 9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0
-      short-id: "cbc638acc8ac87"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Apex (БС)] TROJAN (resources.nextjobopportunityandclaimyouridealrole.com) | YouTube 819ms"
-    type: trojan
-    server: 216.152.155.158
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: resources.nextjobopportunityandclaimyouridealrole.com
-  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 819ms"
-    type: vless
-    server: 195.123.213.28
-    port: 443
-    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.cloudflare.com
-    reality-opts:
-      public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
-      short-id: "5c256336e3b673fa"
+      public-key: 5bGFIWSo4vlrd9Tv1yFcpdpSjrjYYN20SOWHYfighHc
+      short-id: "abde0809"
     client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (max.ru) | YouTube 838ms"
+  - name: "🇷🇺 [Игарëк (БС)] VLESS (patch-25.topp-con.xyz) | YouTube 447ms"
     type: vless
-    server: 195.123.189.221
+    server: 5.129.202.74
     port: 443
-    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
-    network: grpc
-    tls: true
-    udp: true
-    servername: max.ru
-    reality-opts:
-      public-key: 9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0
-      short-id: "cbc638acc8ac87"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 839ms"
-    type: vless
-    server: 154.29.159.211
-    port: 26763
-    uuid: "d3f0d021-6a98-43c1-ba26-b75bd0d145f0"
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: apple.com
+    servername: patch-25.topp-con.xyz
     reality-opts:
-      public-key: 9tgCHwsQFN0j6FaMsAeJN8TSD2qQFnX6JdTaEdp8TRU
-      short-id: "b72b5eed"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 853ms"
+      public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
+      short-id: "b9120cd53ffd7bba"
+    client-fingerprint: ios
+  - name: "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 498ms"
     type: vless
-    server: 193.163.203.170
-    port: 443
-    uuid: "11aabba0-5fd1-4f15-8068-74c1a466cefc"
+    server: 217.16.26.34
+    port: 2080
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: yandex.ru
+    servername: unpkg.com
     reality-opts:
-      public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-      short-id: "b28db60d77c50b4f"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Akres] VLESS (max.ru) | YouTube 884ms"
-    type: vless
-    server: 195.123.189.214
-    port: 443
-    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
-    network: grpc
-    tls: true
-    udp: true
-    servername: max.ru
-    reality-opts:
-      public-key: 9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0
-      short-id: "cbc638acc8ac87"
+      public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+      short-id: "b0d8c9a285c70f6f"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Akres] VLESS (max.ru) | YouTube 885ms"
+  - name: "🇷🇺 [Vlesstrojan] VLESS (kz1.vpnjantit.com) | YouTube 536ms"
     type: vless
-    server: 195.123.189.218
-    port: 443
-    uuid: "63959ed7-d26f-48dd-8c7b-ebdb6ea68535"
-    network: grpc
-    tls: true
-    udp: true
-    servername: max.ru
-    reality-opts:
-      public-key: 9X-tgXeFaqxURY0nGxFNdz9bpNIo7DTXHoWXpBqiOj0
-      short-id: "cbc638acc8ac87"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 919ms"
-    type: trojan
-    server: 216.238.80.100
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: connectwithtopemployersandfindidealjobs.com
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 937ms"
-    type: vless
-    server: 23.95.222.127
-    port: 8443
-    uuid: "352ff568-f971-4613-bf48-92997a5d44ed"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
-      short-id: "35cd899f8de04801"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1111ms"
-    type: vless
-    server: 38.107.236.166
-    port: 8443
-    uuid: "48572af1-d091-457b-a86e-4a457e99927f"
+    server: 89.218.15.90
+    port: 10002
+    uuid: "392fcc7e-b995-11f1-a6b7-1b2272a86bd5"
     network: ws
     tls: true
     udp: true
-    servername: 3h-unitedstates3.09vpn.com
-  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 1184ms"
+    servername: kz1.vpnjantit.com
+  - name: "🇷🇺 [Vlesstrojan] VLESS (sun1-16.userapi.com) | YouTube 572ms"
     type: vless
-    server: 81.208.170.142
-    port: 1500
-    uuid: "e332f028-d343-5b44-8016-b3130f39e133"
-    network: grpc
-    tls: true
-    udp: true
-    servername: www.ebay.com
-    reality-opts:
-      public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
-      short-id: "775eb6408888248e"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1210ms"
-    type: vless
-    server: 46.137.202.178
-    port: 12512
-    uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
+    server: server15.duckvpn.app
+    port: 443
+    uuid: "b1da2601-ff93-46d6-af87-04af3f541fde"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.intel.com
+    servername: sun1-16.userapi.com
     reality-opts:
-      public-key: sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA
-      short-id: "e692a8250d2e2fd0"
+      public-key: wY_MYPJUx849su3BlowuxnwnUaj25iLfRw2LooQfPAY
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Zieng2] VLESS (unpkg.com) | YouTube 572ms"
+    type: vless
+    server: 217.16.26.34
+    port: 2081
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: unpkg.com
+    reality-opts:
+      public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+      short-id: "b0d8c9a285c70f6f"
+    client-fingerprint: edge
+  - name: "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 630ms"
+    type: vless
+    server: 217.16.26.34
+    port: 4890
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: unpkg.com
+    reality-opts:
+      public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+      short-id: "b0d8c9a285c70f6f"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1299ms"
+  - name: "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 631ms"
+    type: vless
+    server: 217.16.26.34
+    port: 2083
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: unpkg.com
+    reality-opts:
+      public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+      short-id: "b0d8c9a285c70f6f"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 640ms"
+    type: vless
+    server: 84.201.179.21
+    port: 443
+    uuid: "0aedd22f-7763-4c64-a92d-4f5188595dc5"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    reality-opts:
+      public-key: zYJherUg8rsyTsumgWLweMea_Tp2j4ZpVuRlskKTwiY
+      short-id: "92df5620ac107be4"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteList.b64))] VLESS (freetg.ghost-service.cc) | YouTube 656ms"
+    type: vless
+    server: freetg.ghost-service.cc
+    port: 443
+    uuid: "36a1c787-fb9e-4fea-ba54-5cb33255d4de"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: freetg.ghost-service.cc
+    reality-opts:
+      public-key: bzv2S23383rd8Ega-o_QrY4PypA6hEA3PrwWWI6LEnQ
+      short-id: "d4943b89d83cb97d"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Vlesstrojan] VLESS (login.vk.com) | YouTube 743ms"
+    type: vless
+    server: 146.103.126.25
+    port: 443
+    uuid: "530c8050-f4c1-4050-940b-5688e09c7c68"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: login.vk.com
+    reality-opts:
+      public-key: 2cdGHEGP5A3WdXhrCSZEdNtMe80thM6o2mhzre3sMhY
+      short-id: "af04f5b2bf4071af"
+    client-fingerprint: random
+  - name: "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 753ms"
+    type: vless
+    server: 158.160.228.216
+    port: 443
+    uuid: "04913a93-529d-0230-9ffd-b37948df532b"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    reality-opts:
+      public-key: sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM
+    client-fingerprint: chrome
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 828ms"
+    type: vless
+    server: 45.198.87.92
+    port: 8443
+    uuid: "7896c501-248f-4068-bc2f-363c91ba5122"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: "2715592069f36fe7"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Vlesstrojan] VLESS (www.vk.com) | YouTube 880ms"
+    type: vless
+    server: mostger2.linkey41.ru
+    port: 443
+    uuid: "566f2431-4c98-484a-abaa-e29adc3b30c4"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.vk.com
+    reality-opts:
+      public-key: 5hrZPU1wxHgBNQ1FiHfOhRNJulzL_wvAklsTN6wXiS8
+    client-fingerprint: qq
+  - name: "🇷🇺 [wlunlocker/vpn-configs (README (blacklist_all.txt))] VLESS (uk.neuroniko.com) | YouTube 898ms"
+    type: vless
+    server: 89.208.210.53
+    port: 24127
+    uuid: "69158986-cfae-4567-8391-0f96d9d985bd"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: uk.neuroniko.com
+    reality-opts:
+      public-key: ud15DX-emDBS7QsLMabJ7CjgIteK61jxwSp1v0Fewxc
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 916ms"
+    type: vless
+    server: 150.241.75.227
+    port: 443
+    uuid: "322ffd77-9adc-4e10-8302-a8bcc14555a0"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: max.ru
+    reality-opts:
+      public-key: jkJjVvjbZmS5Nq-5Oz7GTRSZ_qXfChO7b5Ee8yYglzw
+      short-id: "23c0b9cc8395ab36"
+    client-fingerprint: qq
+  - name: "🇷🇺 [VlessForU (БС)] TROJAN (blog.connectingpeoplewithgreatjobs.com) | YouTube 976ms"
+    type: trojan
+    server: 216.152.147.79
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: blog.connectingpeoplewithgreatjobs.com
+  - name: "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (m.vkvideo.cs7777.vk.ru) | YouTube 1090ms"
+    type: vless
+    server: 95.85.224.240
+    port: 443
+    uuid: "95aa9292-4bab-4827-95bc-ea5cedd2c13a"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.vkvideo.cs7777.vk.ru
+    reality-opts:
+      public-key: dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Vlesstrojan] VLESS (help.max.ru) | YouTube 1128ms"
+    type: vless
+    server: 144.31.158.164
+    port: 443
+    uuid: "6b435511-6abb-46e3-85fd-709bcc5882ee"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: help.max.ru
+    reality-opts:
+      public-key: hd4dEiJ3ba7pm7kUF9l4DYAm6M34do8TO6QEprgqFl0
+      short-id: "a1b2c3d4"
+    client-fingerprint: safari
+  - name: "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 1184ms"
+    type: vless
+    server: 212.233.73.93
+    port: 1488
+    uuid: "00c49863-6d15-4289-9229-841ee5f7868c"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: "6ba85179e30d4fc2"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Zieng2] VLESS (z1q3pv4g78.rucdncomp.pro) | YouTube 1264ms"
+    type: vless
+    server: 217.19.122.156
+    port: 443
+    uuid: "c720cb74-4c84-4fce-b8ae-637dbaa16199"
+    network: ws
+    tls: true
+    udp: true
+    servername: z1q3pv4g78.rucdncomp.pro
+  - name: "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 1395ms"
+    type: vless
+    server: 217.16.26.28
+    port: 2880
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: unpkg.com
+    reality-opts:
+      public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+      short-id: "b0d8c9a285c70f6f"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (cdnjs.com) | YouTube 1558ms"
+    type: vless
+    server: 217.16.26.28
+    port: 3088
+    uuid: "2f6c70f3-206a-4bc1-ac1f-6b70153f9c73"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cdnjs.com
+    reality-opts:
+      public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+      short-id: "b0d8c9a285c70f6f"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [ssavnayt/AWCFG-CONFIG-LIST (Configs-AUTO-ALT.txt)] VLESS (eh.vk.ru) | YouTube 1869ms"
+    type: vless
+    server: 89.208.210.71
+    port: 443
+    uuid: "6aa845b6-cb41-00c8-98dc-ae10890ee8bd"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: eh.vk.ru
+    reality-opts:
+      public-key: X3_wpAsAUS1ajiuResGGrHQo8aMT1KlbMeMWAFk1jX8
+    client-fingerprint: chrome
+  - name: "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 2087ms"
+    type: vless
+    server: 158.160.228.216
+    port: 443
+    uuid: "04913a93-529d-0212-9ffd-b37948df532b"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    reality-opts:
+      public-key: sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM
+    client-fingerprint: chrome
+  - name: "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (www.mobile.yandex.ru) | YouTube 3088ms"
+    type: vless
+    server: 51.250.95.143
+    port: 443
+    uuid: "5725a60c-34a5-476d-9ae3-9e43d945ca8f"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.mobile.yandex.ru
+    reality-opts:
+      public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
+      short-id: "f6"
+    client-fingerprint: random
+  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 4283ms"
+    type: vless
+    server: 45.194.10.152
+    port: 8443
+    uuid: "3e7cede4-721a-4807-b0a2-5fe6586af907"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: storage.yandex.net
+    reality-opts:
+      public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+      short-id: "2cfb5a0ae8ab0cb0"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [Игарëк (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 5581ms"
     type: vless
     server: 36a466g.fi1.h1clayd.click
     port: 443
@@ -389,273 +414,236 @@ proxies:
       public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
       short-id: "b3c9d0c6bdd114a6"
     client-fingerprint: chrome
-  - name: "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1413ms"
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (tfhx4tjzmy39benjh0hg.sellerape.cc) | YouTube 6140ms"
     type: vless
-    server: 3h-unitedstates3.09vpn.com
-    port: 8443
-    uuid: "48572af1-d091-457b-a86e-4a457e99927f"
+    server: tfhx4tjzmy39benjh0hg.sellerape.cc
+    port: 443
+    uuid: "03929684-0dcf-4add-bb02-2b2ba09d10a2"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tfhx4tjzmy39benjh0hg.sellerape.cc
+    reality-opts:
+      public-key: Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0
+    client-fingerprint: firefox
+  - name: "🌐 [Apex (ЧС)] VLESS (www.apple.com) | YouTube 542ms"
+    type: vless
+    server: 51.77.217.70
+    port: 2053
+    uuid: "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e"
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.apple.com
+    reality-opts:
+      public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+      short-id: "bfe58beb41f1d09f"
+    client-fingerprint: chrome
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (owowiwuwy-iwywywgcwvw.maxgh5766.ir) | YouTube 654ms"
+    type: vless
+    server: 8.6.112.0
+    port: 443
+    uuid: "59876d4f-a62d-4712-e8eb-7d5ef8b4bb92"
+    network: tcp
+    tls: true
+    udp: true
+    servername: owowiwuwy-iwywywgcwvw.maxgh5766.ir
+  - name: "🌐 [Apex (ЧС)] VLESS (www.chip.de) | YouTube 700ms"
+    type: vless
+    server: 193.148.253.132
+    port: 25362
+    uuid: "36fb6650-8a50-42b5-9f66-06538806f32c"
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.chip.de
+    reality-opts:
+      public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+      short-id: "23732d14a527990d"
+    client-fingerprint: firefox
+  - name: "🌐 [Akres] VLESS (yahoo.com) | YouTube 771ms"
+    type: vless
+    server: 100.55.27.211
+    port: 10413
+    uuid: "fed54c61-b3f9-4d0c-aaf0-3628125966bc"
+    network: tcp
+    tls: true
+    udp: true
+    servername: yahoo.com
+    reality-opts:
+      public-key: WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ
+      short-id: "79a1e14b"
+    client-fingerprint: firefox
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 781ms"
+    type: vless
+    server: 160.153.1.122
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     network: ws
     tls: true
     udp: true
-    servername: 3h-unitedstates3.09vpn.com
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1419ms"
+    servername: sni.111000.v6.navy
+  - name: "🌐 [Akres] VLESS (se.pink-service.ru) | YouTube 836ms"
     type: vless
-    server: 3.114.220.22
-    port: 18007
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1420ms"
-    type: vless
-    server: 3.114.220.22
-    port: 19645
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1496ms"
-    type: vless
-    server: staging.lastilhame.monster
+    server: 193.233.252.210
     port: 443
-    uuid: "317bc783-340f-453c-afb5-b6bf637c0b23"
+    uuid: "0a3bfacf-197e-49d2-9ebd-4182fc477b72"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.tradingview.com
+    servername: se.pink-service.ru
     reality-opts:
-      public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-      short-id: "fc994ae7eb10"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1516ms"
-    type: vless
-    server: 94.156.79.93
-    port: 443
-    uuid: "1a5e7720-abf3-4b9b-bc9b-9a900a04b434"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.microsoft.com
-    reality-opts:
-      public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
-      short-id: "f129dcdbf64f"
+      public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
+      short-id: "86b80f1e713a33ad"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1537ms"
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (xy1ej.stream-node-us.danfeng.qzz.io) | YouTube 837ms"
     type: vless
-    server: 3.114.220.22
-    port: 10583
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1680ms"
-    type: vless
-    server: 54.251.9.130
-    port: 24146
-    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.intel.com
-    reality-opts:
-      public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-      short-id: "7205d9079521832c"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1745ms"
-    type: vless
-    server: 3.39.4.109
-    port: 18967
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1750ms"
-    type: vless
-    server: 3.39.4.109
-    port: 13672
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1843ms"
-    type: trojan
-    server: 216.152.156.65
+    server: 43.135.6.72
     port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
+    network: ws
+    tls: true
     udp: true
-    sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2460ms"
+    servername: xy1ej.stream-node-us.danfeng.qzz.io
+  - name: "🌐 [Apex (ЧС)] VLESS (stackoverflow.com) | YouTube 899ms"
     type: vless
-    server: 3.0.111.82
-    port: 12972
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    server: 89.185.82.151
+    port: 10443
+    uuid: "0869a7d7-b8e8-42be-8bca-84b0ab07744a"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.apple.com
+    servername: stackoverflow.com
     reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2535ms"
-    type: vless
-    server: 3.0.111.82
-    port: 17623
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2614ms"
-    type: vless
-    server: 3.0.111.82
-    port: 10574
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Ghost] VLESS (db-23.topp-con.xyz) | YouTube 3509ms"
-    type: vless
-    server: 201.51.29.153
-    port: 443
-    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: db-23.topp-con.xyz
-    reality-opts:
-      public-key: Elmq7GhYEGaiujWnLYeK3HidTkZV6JYH-aYJXBG9iwc
-      short-id: "20b37477b1d93f7e"
-    client-fingerprint: edge
-  - name: "🇷🇺 [Apex (БС)] VLESS (video.yandex.ru) | YouTube 3519ms"
-    type: vless
-    server: 147.93.173.45
-    port: 10444
-    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: video.yandex.ru
-    reality-opts:
-      public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-      short-id: "8debcf36f1cc69ff"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3600ms"
-    type: vless
-    server: 85.90.197.220
-    port: 443
-    uuid: "8f704ed6-9a1a-4d04-94dd-1bff501716de"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.cloudflare.com
-    reality-opts:
-      public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
-      short-id: "94acb54627612d43"
+      public-key: XNfikFybWtjJjWU7-QBGrr-D9YUW0uSK_sR7mDDUmRU
+      short-id: "6ba85179"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 4178ms"
-    type: trojan
-    server: 216.152.156.49
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  - name: "🇷🇺 [Lime (БС)] VLESS (absolute-disaster.org) | YouTube 4296ms"
+  - name: "🌐 [Akres] VLESS (portal.citygrainla.com) | YouTube 909ms"
     type: vless
-    server: 104.171.135.229
+    server: 104.36.69.105
     port: 443
-    uuid: "Fluffy_VPN-Oth8rOq3"
+    uuid: "4dbf1ade-33f1-40dc-9273-e51babd570fe"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: absolute-disaster.org
+    servername: portal.citygrainla.com
     reality-opts:
-      public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
+      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+      short-id: "051f20c2344a2dfd"
     client-fingerprint: firefox
-  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5088ms"
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 965ms"
     type: vless
-    server: 82.118.19.153
+    server: 160.153.1.51
     port: 443
-    uuid: "adcaa148-7c66-4282-a81a-99ec8afa029d"
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    tls: true
+    udp: true
+    servername: sni.111000.v6.navy
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 1082ms"
+    type: vless
+    server: 160.153.1.156
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: ws
+    tls: true
+    udp: true
+    servername: sni.111000.v6.navy
+  - name: "🌐 [Apex (ЧС)] VLESS (nl.cachevault.net) | YouTube 1119ms"
+    type: vless
+    server: 191.217.214.50
+    port: 443
+    uuid: "2b9fc113-db27-4635-86d8-fa4556a5b7ba"
+    network: tcp
+    tls: true
+    udp: true
+    servername: nl.cachevault.net
+    reality-opts:
+      public-key: XTX6Yvtj5B4HENQbNCS0MH3jDqq5vj5gWlg2nilTviE
+      short-id: "8ba02790a1480848"
+    client-fingerprint: firefox
+  - name: "🌐 [Apex (ЧС)] VLESS (www.mozilla.org) | YouTube 1180ms"
+    type: vless
+    server: 193.124.17.190
+    port: 443
+    uuid: "d84c13b2-c2b9-4a7c-838f-05ac09ee422e"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.cloudflare.com
+    servername: www.mozilla.org
     reality-opts:
-      public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
-      short-id: "670ed9f350bd8ee0"
+      public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+      short-id: "2a2ce9e42980"
+    client-fingerprint: firefox
+  - name: "🌐 [FalerChannel/FalerChannel (README (5Frid_Notorgamers))] HY2 | YouTube 1390ms"
+    type: hysteria2
+    server: fre.guren1.me
+    port: 8443
+    password: "c3a8753e-317e-479e-bee7-01adf5e2af7e"
+    sni: fre.guren1.me
+    skip-cert-verify: true
+  - name: "🌐 [Akres] VLESS (sg-sin.probe.geomyip.com) | YouTube 1981ms"
+    type: vless
+    server: 134.255.211.36
+    port: 443
+    uuid: "c5f59ef3-9540-49fa-bd1e-c6c2f79df49a"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sg-sin.probe.geomyip.com
+    reality-opts:
+      public-key: KcI3PoYu2yF7whv-e0C7JnRyUoUiUDu6tOlUBPYYbCk
+      short-id: "2e96bf6afa823abb"
+    client-fingerprint: firefox
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (iran.boltboost.gg) | YouTube 2414ms"
+    type: vless
+    server: python.org
+    port: 80
+    uuid: "a26bbed7-a286-4840-84bc-dc102c526777"
+    network: tcp
+    tls: true
+    udp: true
+  - name: "🌐 [Akres] VLESS (dash.cloudflare.com) | YouTube 3549ms"
+    type: vless
+    server: 209.33.160.122
+    port: 39098
+    uuid: "7852e4df-db54-4f75-a35e-3b8fbe89e56d"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: dash.cloudflare.com
+    reality-opts:
+      public-key: DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg
+    client-fingerprint: firefox
+  - name: "🌐 [Aetris (ЧС)] VLESS (sg003.zestapp778.com) | YouTube 4628ms"
+    type: vless
+    server: 45.77.243.143
+    port: 443
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
+    network: tcp
+    tls: true
+    udp: true
+    servername: sg003.zestapp778.com
+  - name: "🌐 [AmazingCoderA/PypsCFG (README (BlackList.b64))] VLESS (apple.com) | YouTube 4961ms"
+    type: vless
+    server: 212.113.119.31
+    port: 443
+    uuid: "05ac3cee-cc13-4cde-bfbe-928974baa2e3"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    reality-opts:
+      public-key: nWGZxelG2CsJkJlZ2sJXxiLBQODS9xAetwdA4q0BwDI
     client-fingerprint: chrome
-  - name: "🇷🇺 [Kizяк (ЧС)] TROJAN (www.nextjobopportunityandclaimyouridealrole.com) | YouTube 5437ms"
-    type: trojan
-    server: 216.152.155.131
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: www.nextjobopportunityandclaimyouridealrole.com
-  - name: "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5639ms"
-    type: vless
-    server: 45.90.59.15
-    port: 443
-    uuid: "3950b45e-740d-4dca-ac95-505ec8534592"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.cloudflare.com
-    reality-opts:
-      public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
-      short-id: "19253fae84102271"
-    client-fingerprint: firefox
 
 proxy-groups:
   - name: 🛡️ Белые Списки (Выбор)
@@ -665,58 +653,56 @@ proxy-groups:
       - 🇷🇺 Только Белые Списки (БС)
       - 🛡️ Fallback
       - DIRECT
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 340ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (nla.kosmosapp.net) | YouTube 355ms"
-      - "🇷🇺 [FalerChannel/FalerChannel (README (vless.txt))] VLESS (nla.kosmosapp.net) | YouTube 375ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
-      - "🇷🇺 [Aetris (БС)] VLESS (www.nordea.fi) | YouTube 511ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 520ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 547ms"
-      - "🇷🇺 [Apex (БС)] VLESS (play.google.com) | YouTube 587ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 600ms"
-      - "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 629ms"
-      - "🇷🇺 [Kizяк (ЧС)] TROJAN (www.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 688ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 699ms"
-      - "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 732ms"
-      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 782ms"
-      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 785ms"
-      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 786ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 799ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (max.ru) | YouTube 808ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (resources.nextjobopportunityandclaimyouridealrole.com) | YouTube 819ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 819ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 838ms"
-      - "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 839ms"
-      - "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 853ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 884ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 885ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 919ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 937ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1111ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 1184ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1210ms"
-      - "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1299ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1413ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1419ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1420ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1496ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1516ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1537ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1680ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1745ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1750ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1843ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2460ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2535ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2614ms"
-      - "🇷🇺 [Ghost] VLESS (db-23.topp-con.xyz) | YouTube 3509ms"
-      - "🇷🇺 [Apex (БС)] VLESS (video.yandex.ru) | YouTube 3519ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3600ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 4178ms"
-      - "🇷🇺 [Lime (БС)] VLESS (absolute-disaster.org) | YouTube 4296ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5088ms"
-      - "🇷🇺 [Kizяк (ЧС)] TROJAN (www.nextjobopportunityandclaimyouridealrole.com) | YouTube 5437ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5639ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (akashi.vk-portal.net) | YouTube 317ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 384ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 398ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (patch-25.topp-con.xyz) | YouTube 447ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 498ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (kz1.vpnjantit.com) | YouTube 536ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (sun1-16.userapi.com) | YouTube 572ms"
+      - "🇷🇺 [Zieng2] VLESS (unpkg.com) | YouTube 572ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 630ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 631ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 640ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteList.b64))] VLESS (freetg.ghost-service.cc) | YouTube 656ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (login.vk.com) | YouTube 743ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 753ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 828ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (www.vk.com) | YouTube 880ms"
+      - "🇷🇺 [wlunlocker/vpn-configs (README (blacklist_all.txt))] VLESS (uk.neuroniko.com) | YouTube 898ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 916ms"
+      - "🇷🇺 [VlessForU (БС)] TROJAN (blog.connectingpeoplewithgreatjobs.com) | YouTube 976ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (m.vkvideo.cs7777.vk.ru) | YouTube 1090ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (help.max.ru) | YouTube 1128ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 1184ms"
+      - "🇷🇺 [Zieng2] VLESS (z1q3pv4g78.rucdncomp.pro) | YouTube 1264ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 1395ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (cdnjs.com) | YouTube 1558ms"
+      - "🇷🇺 [ssavnayt/AWCFG-CONFIG-LIST (Configs-AUTO-ALT.txt)] VLESS (eh.vk.ru) | YouTube 1869ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 2087ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (www.mobile.yandex.ru) | YouTube 3088ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 4283ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 5581ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (tfhx4tjzmy39benjh0hg.sellerape.cc) | YouTube 6140ms"
+      - "🌐 [Apex (ЧС)] VLESS (www.apple.com) | YouTube 542ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (owowiwuwy-iwywywgcwvw.maxgh5766.ir) | YouTube 654ms"
+      - "🌐 [Apex (ЧС)] VLESS (www.chip.de) | YouTube 700ms"
+      - "🌐 [Akres] VLESS (yahoo.com) | YouTube 771ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 781ms"
+      - "🌐 [Akres] VLESS (se.pink-service.ru) | YouTube 836ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (xy1ej.stream-node-us.danfeng.qzz.io) | YouTube 837ms"
+      - "🌐 [Apex (ЧС)] VLESS (stackoverflow.com) | YouTube 899ms"
+      - "🌐 [Akres] VLESS (portal.citygrainla.com) | YouTube 909ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 965ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 1082ms"
+      - "🌐 [Apex (ЧС)] VLESS (nl.cachevault.net) | YouTube 1119ms"
+      - "🌐 [Apex (ЧС)] VLESS (www.mozilla.org) | YouTube 1180ms"
+      - "🌐 [FalerChannel/FalerChannel (README (5Frid_Notorgamers))] HY2 | YouTube 1390ms"
+      - "🌐 [Akres] VLESS (sg-sin.probe.geomyip.com) | YouTube 1981ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (iran.boltboost.gg) | YouTube 2414ms"
+      - "🌐 [Akres] VLESS (dash.cloudflare.com) | YouTube 3549ms"
+      - "🌐 [Aetris (ЧС)] VLESS (sg003.zestapp778.com) | YouTube 4628ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackList.b64))] VLESS (apple.com) | YouTube 4961ms"
 
   - name: ⚡ Самый быстрый (URL-Test)
     type: url-test
@@ -724,58 +710,56 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 340ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (nla.kosmosapp.net) | YouTube 355ms"
-      - "🇷🇺 [FalerChannel/FalerChannel (README (vless.txt))] VLESS (nla.kosmosapp.net) | YouTube 375ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
-      - "🇷🇺 [Aetris (БС)] VLESS (www.nordea.fi) | YouTube 511ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 520ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 547ms"
-      - "🇷🇺 [Apex (БС)] VLESS (play.google.com) | YouTube 587ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 600ms"
-      - "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 629ms"
-      - "🇷🇺 [Kizяк (ЧС)] TROJAN (www.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 688ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 699ms"
-      - "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 732ms"
-      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 782ms"
-      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 785ms"
-      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 786ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 799ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (max.ru) | YouTube 808ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (resources.nextjobopportunityandclaimyouridealrole.com) | YouTube 819ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 819ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 838ms"
-      - "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 839ms"
-      - "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 853ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 884ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 885ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 919ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 937ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1111ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 1184ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1210ms"
-      - "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1299ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1413ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1419ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1420ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1496ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1516ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1537ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1680ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1745ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1750ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1843ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2460ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2535ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2614ms"
-      - "🇷🇺 [Ghost] VLESS (db-23.topp-con.xyz) | YouTube 3509ms"
-      - "🇷🇺 [Apex (БС)] VLESS (video.yandex.ru) | YouTube 3519ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3600ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 4178ms"
-      - "🇷🇺 [Lime (БС)] VLESS (absolute-disaster.org) | YouTube 4296ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5088ms"
-      - "🇷🇺 [Kizяк (ЧС)] TROJAN (www.nextjobopportunityandclaimyouridealrole.com) | YouTube 5437ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5639ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (akashi.vk-portal.net) | YouTube 317ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 384ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 398ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (patch-25.topp-con.xyz) | YouTube 447ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 498ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (kz1.vpnjantit.com) | YouTube 536ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (sun1-16.userapi.com) | YouTube 572ms"
+      - "🇷🇺 [Zieng2] VLESS (unpkg.com) | YouTube 572ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 630ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 631ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 640ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteList.b64))] VLESS (freetg.ghost-service.cc) | YouTube 656ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (login.vk.com) | YouTube 743ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 753ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 828ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (www.vk.com) | YouTube 880ms"
+      - "🇷🇺 [wlunlocker/vpn-configs (README (blacklist_all.txt))] VLESS (uk.neuroniko.com) | YouTube 898ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 916ms"
+      - "🇷🇺 [VlessForU (БС)] TROJAN (blog.connectingpeoplewithgreatjobs.com) | YouTube 976ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (m.vkvideo.cs7777.vk.ru) | YouTube 1090ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (help.max.ru) | YouTube 1128ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 1184ms"
+      - "🇷🇺 [Zieng2] VLESS (z1q3pv4g78.rucdncomp.pro) | YouTube 1264ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 1395ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (cdnjs.com) | YouTube 1558ms"
+      - "🇷🇺 [ssavnayt/AWCFG-CONFIG-LIST (Configs-AUTO-ALT.txt)] VLESS (eh.vk.ru) | YouTube 1869ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 2087ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (www.mobile.yandex.ru) | YouTube 3088ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 4283ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 5581ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (tfhx4tjzmy39benjh0hg.sellerape.cc) | YouTube 6140ms"
+      - "🌐 [Apex (ЧС)] VLESS (www.apple.com) | YouTube 542ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (owowiwuwy-iwywywgcwvw.maxgh5766.ir) | YouTube 654ms"
+      - "🌐 [Apex (ЧС)] VLESS (www.chip.de) | YouTube 700ms"
+      - "🌐 [Akres] VLESS (yahoo.com) | YouTube 771ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 781ms"
+      - "🌐 [Akres] VLESS (se.pink-service.ru) | YouTube 836ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (xy1ej.stream-node-us.danfeng.qzz.io) | YouTube 837ms"
+      - "🌐 [Apex (ЧС)] VLESS (stackoverflow.com) | YouTube 899ms"
+      - "🌐 [Akres] VLESS (portal.citygrainla.com) | YouTube 909ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 965ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (sni.111000.v6.navy) | YouTube 1082ms"
+      - "🌐 [Apex (ЧС)] VLESS (nl.cachevault.net) | YouTube 1119ms"
+      - "🌐 [Apex (ЧС)] VLESS (www.mozilla.org) | YouTube 1180ms"
+      - "🌐 [FalerChannel/FalerChannel (README (5Frid_Notorgamers))] HY2 | YouTube 1390ms"
+      - "🌐 [Akres] VLESS (sg-sin.probe.geomyip.com) | YouTube 1981ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackListChecked.txt))] VLESS (iran.boltboost.gg) | YouTube 2414ms"
+      - "🌐 [Akres] VLESS (dash.cloudflare.com) | YouTube 3549ms"
+      - "🌐 [Aetris (ЧС)] VLESS (sg003.zestapp778.com) | YouTube 4628ms"
+      - "🌐 [AmazingCoderA/PypsCFG (README (BlackList.b64))] VLESS (apple.com) | YouTube 4961ms"
 
   - name: 🇷🇺 Только Белые Списки (БС)
     type: url-test
@@ -783,72 +767,51 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 340ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (nla.kosmosapp.net) | YouTube 355ms"
-      - "🇷🇺 [FalerChannel/FalerChannel (README (vless.txt))] VLESS (nla.kosmosapp.net) | YouTube 375ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
-      - "🇷🇺 [Aetris (БС)] VLESS (www.nordea.fi) | YouTube 511ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 520ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 547ms"
-      - "🇷🇺 [Apex (БС)] VLESS (play.google.com) | YouTube 587ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS | YouTube 600ms"
-      - "🇷🇺 [Apex (БС)] VLESS (www.apple.com) | YouTube 629ms"
-      - "🇷🇺 [Kizяк (ЧС)] TROJAN (www.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 688ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 699ms"
-      - "🇷🇺 [Lime (БС)] VLESS (ads.x5.ru) | YouTube 732ms"
-      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 782ms"
-      - "🇷🇺 [Apex (БС)] VLESS (absolute-disaster.org) | YouTube 785ms"
-      - "🇷🇺 [Akres] HYSTERIA2 (promo3.goonars.com) | YouTube 786ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 799ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (max.ru) | YouTube 808ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (resources.nextjobopportunityandclaimyouridealrole.com) | YouTube 819ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 819ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 838ms"
-      - "🇷🇺 [Lime (БС)] VLESS (apple.com) | YouTube 839ms"
-      - "🇷🇺 [Lime (БС)] VLESS (yandex.ru) | YouTube 853ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 884ms"
-      - "🇷🇺 [Akres] VLESS (max.ru) | YouTube 885ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 919ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 937ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1111ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (www.ebay.com) | YouTube 1184ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1210ms"
-      - "🇷🇺 [Lime (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 1299ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (3h-unitedstates3.09vpn.com) | YouTube 1413ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1419ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1420ms"
-      - "🇷🇺 [HardVPN] VLESS (www.tradingview.com) | YouTube 1496ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.microsoft.com) | YouTube 1516ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1537ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.intel.com) | YouTube 1680ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1745ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 1750ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 1843ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2460ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2535ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.apple.com) | YouTube 2614ms"
-      - "🇷🇺 [Ghost] VLESS (db-23.topp-con.xyz) | YouTube 3509ms"
-      - "🇷🇺 [Apex (БС)] VLESS (video.yandex.ru) | YouTube 3519ms"
-      - "🇷🇺 [Lime (БС)] VLESS (www.cloudflare.com) | YouTube 3600ms"
-      - "🇷🇺 [Apex (БС)] TROJAN (cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com) | YouTube 4178ms"
-      - "🇷🇺 [Lime (БС)] VLESS (absolute-disaster.org) | YouTube 4296ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5088ms"
-      - "🇷🇺 [Kizяк (ЧС)] TROJAN (www.nextjobopportunityandclaimyouridealrole.com) | YouTube 5437ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 5639ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (akashi.vk-portal.net) | YouTube 317ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 384ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 398ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (patch-25.topp-con.xyz) | YouTube 447ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 498ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (kz1.vpnjantit.com) | YouTube 536ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (sun1-16.userapi.com) | YouTube 572ms"
+      - "🇷🇺 [Zieng2] VLESS (unpkg.com) | YouTube 572ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 630ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 631ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 640ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteList.b64))] VLESS (freetg.ghost-service.cc) | YouTube 656ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (login.vk.com) | YouTube 743ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 753ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 828ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (www.vk.com) | YouTube 880ms"
+      - "🇷🇺 [wlunlocker/vpn-configs (README (blacklist_all.txt))] VLESS (uk.neuroniko.com) | YouTube 898ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 916ms"
+      - "🇷🇺 [VlessForU (БС)] TROJAN (blog.connectingpeoplewithgreatjobs.com) | YouTube 976ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (m.vkvideo.cs7777.vk.ru) | YouTube 1090ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (help.max.ru) | YouTube 1128ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 1184ms"
+      - "🇷🇺 [Zieng2] VLESS (z1q3pv4g78.rucdncomp.pro) | YouTube 1264ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 1395ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (cdnjs.com) | YouTube 1558ms"
+      - "🇷🇺 [ssavnayt/AWCFG-CONFIG-LIST (Configs-AUTO-ALT.txt)] VLESS (eh.vk.ru) | YouTube 1869ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 2087ms"
+      - "🇷🇺 [AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))] VLESS (www.mobile.yandex.ru) | YouTube 3088ms"
+      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (storage.yandex.net) | YouTube 4283ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (36a466g.fi1.h1clayd.click) | YouTube 5581ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (tfhx4tjzmy39benjh0hg.sellerape.cc) | YouTube 6140ms"
 
   - name: 🛡️ Fallback
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "🇷🇺 [KFWL (Full ЧС)] HYSTERIA2 | YouTube 340ms"
-      - "🇷🇺 [KFWL (ЧС)] VLESS (nla.kosmosapp.net) | YouTube 355ms"
-      - "🇷🇺 [FalerChannel/FalerChannel (README (vless.txt))] VLESS (nla.kosmosapp.net) | YouTube 375ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 490ms"
-      - "🇷🇺 [Aetris (БС)] VLESS (www.nordea.fi) | YouTube 511ms"
-      - "🇷🇺 [B3B3097/paraser (valid_whitelist_links.txt)] VLESS (ov-germany1.09vpn.com) | YouTube 520ms"
-      - "🇷🇺 [HardVPN] VLESS (www.cloudflare.com) | YouTube 547ms"
-      - "🇷🇺 [Apex (БС)] VLESS (play.google.com) | YouTube 587ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (akashi.vk-portal.net) | YouTube 317ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (max.ru) | YouTube 384ms"
+      - "🇷🇺 [coloramamoe/vless-parser (README (full.txt))] VLESS (ads.x5.ru) | YouTube 398ms"
+      - "🇷🇺 [Игарëк (БС)] VLESS (patch-25.topp-con.xyz) | YouTube 447ms"
+      - "🇷🇺 [solovyov-jenya2004/all_subs (final_sorted)] VLESS (unpkg.com) | YouTube 498ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (kz1.vpnjantit.com) | YouTube 536ms"
+      - "🇷🇺 [Vlesstrojan] VLESS (sun1-16.userapi.com) | YouTube 572ms"
+      - "🇷🇺 [Zieng2] VLESS (unpkg.com) | YouTube 572ms"
 
 rules:
   - DOMAIN-SUFFIX,ru,DIRECT
