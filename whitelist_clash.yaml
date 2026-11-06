@@ -1,7 +1,7 @@
 # ============================================================
 # DELETEYOURVPN - Verified Russian Whitelist & Bypass Proxies
-# Generated: 2026-11-06 10:58:57 UTC
-# Total Working Nodes: 58 (Tested with YouTube)
+# Generated: 2026-11-06 18:05:58 UTC
+# Total Working Nodes: 17 (Tested with YouTube)
 # ============================================================
 port: 7890
 socks-port: 7891
@@ -25,559 +25,189 @@ dns:
     - https://1.1.1.1/dns-query
 
 proxies:
-  - name: "🌐 [KFWL (Full ЧС)] VLESS (SC-TheNetherlands1.09vpn.com) | YouTube 353ms"
-    type: vless
-    server: sc-thenetherlands1.09vpn.com
-    port: 80
-    uuid: "40cc9b52-25b8-4cd5-8b45-715ae26e6baf"
-    network: ws
-    tls: true
+  - name: "🇷🇺 [Rjsxrd] TROJAN (searchhealthcarejobsandbuildmedicalcareerpathway.com) | YouTube 462ms"
+    type: trojan
+    server: 70.34.207.14
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     udp: true
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 365ms"
+    sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (nl4.japancase.site) | YouTube 734ms"
     type: vless
-    server: 51.158.206.12
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 367ms"
-    type: vless
-    server: 51.158.206.87
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 369ms"
-    type: vless
-    server: 51.158.206.25
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 373ms"
-    type: vless
-    server: 51.158.206.19
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 377ms"
-    type: vless
-    server: 51.158.206.97
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 380ms"
-    type: vless
-    server: 51.158.206.103
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 424ms"
-    type: vless
-    server: 62.210.91.10
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [KFWL (ЧС)] VLESS (gb1.japancase.site) | YouTube 470ms"
-    type: vless
-    server: 157.228.64.24
+    server: nl4.japancase.site
     port: 443
     uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: gb1.japancase.site
+    servername: nl4.japancase.site
     reality-opts:
-      public-key: QFYzek1TNFeZxhHP3gH-42RUYDGw0ZiigeDcUOFL2Vs
-      short-id: "bd44ae7c721b8252"
+      public-key: lXCVb-MY5dJqMUw6xvkuPbi0idyfF-OkSY_6GpOovVI
+      short-id: "9f05c35b73b47d53"
+    client-fingerprint: ios
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (13e1cfg.plp1.h1cloud.net) | YouTube 786ms"
+    type: vless
+    server: 13e1cfg.plp1.h1cloud.net
+    port: 443
+    uuid: "55458d10-24ab-4ea6-a522-13741b546f2a"
+    network: grpc
+    tls: true
+    udp: true
+    servername: 13e1cfg.plp1.h1cloud.net
+    reality-opts:
+      public-key: cWC6AGVZ9ke_eCTWXEB-eLdf670CuoP9zP-1k8DrPxo
+      short-id: "8ae9cc8c9447c95a"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (d58daft.plp1.h1cloud.net) | YouTube 862ms"
+    type: vless
+    server: d58daft.plp1.h1cloud.net
+    port: 443
+    uuid: "55458d10-24ab-4ea6-a522-13741b546f2a"
+    network: tcp
+    tls: true
+    udp: true
+    servername: d58daft.plp1.h1cloud.net
+    reality-opts:
+      public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
+      short-id: "a91531ad58c8611c"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Rjsxrd] VLESS (gamenews.best) | YouTube 1139ms"
+    type: vless
+    server: gamenews.best
+    port: 443
+    uuid: "acc50200-7f21-4f90-9cca-0057efcbf042"
+    network: tcp
+    tls: true
+    udp: true
+    servername: gamenews.best
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (7cabc1g.de-p1.h1clayd.click) | YouTube 1500ms"
+    type: vless
+    server: 7cabc1g.de-p1.h1clayd.click
+    port: 443
+    uuid: "55458d10-24ab-4ea6-a522-13741b546f2a"
+    network: grpc
+    tls: true
+    udp: true
+    servername: 7cabc1g.de-p1.h1clayd.click
+    reality-opts:
+      public-key: mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E
+      short-id: "3b84fc70657725af"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (f0d7aft.nl13.h1clayd.click) | YouTube 1939ms"
+    type: vless
+    server: f0d7aft.nl13.h1clayd.click
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    network: tcp
+    tls: true
+    udp: true
+    servername: f0d7aft.nl13.h1clayd.click
+    reality-opts:
+      public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
+      short-id: "8956c57cb4c4f8d2"
     client-fingerprint: firefox
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.iloverussia2026.com) | YouTube 560ms"
-    type: trojan
-    server: 193.108.119.78
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: www.iloverussia2026.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (tr1.japancase.site) | YouTube 616ms"
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (3fb2b6t.se1.h1clayd.click) | YouTube 2760ms"
     type: vless
-    server: tr1.japancase.site
+    server: se1.h1cloud.net
     port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    uuid: "55458d10-24ab-4ea6-a522-13741b546f2a"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: tr1.japancase.site
+    servername: 3fb2b6t.se1.h1clayd.click
     reality-opts:
-      public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-      short-id: "41ae8e266bc3346f"
-    client-fingerprint: qq
-  - name: "🌐 [KFWL (ЧС)] VLESS (at1.japancase.site) | YouTube 637ms"
-    type: vless
-    server: 178.22.31.72
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: at1.japancase.site
-    reality-opts:
-      public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-      short-id: "41ae8e266bc3346f"
+      public-key: XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA
+      short-id: "1061f1b1cdaad3ad"
     client-fingerprint: firefox
-  - name: "🌐 [KFWL (ЧС)] VLESS (ee2.japancase.site) | YouTube 642ms"
+  - name: "🇷🇺 [RKP (БС)] VLESS (tz5gtjwlki.j.cloudfront.hls.hlsnode.net) | YouTube 3174ms"
     type: vless
-    server: 45.86.60.190
+    server: 95.143.188.113
     port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
+    uuid: "c47159bb-2c15-440d-b239-8594d7e7efbb"
+    network: grpc
+    tls: true
+    udp: true
+    servername: tz5gtjwlki.j.cloudfront.hls.hlsnode.net
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (961ec0g.nl13.h1clayd.click) | YouTube 4110ms"
+    type: vless
+    server: 961ec0g.nl13.h1clayd.click
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    network: grpc
+    tls: true
+    udp: true
+    servername: 961ec0g.nl13.h1clayd.click
+    reality-opts:
+      public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
+      short-id: "6d289ff0f47c0aac"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [Rjsxrd] TROJAN (resources.yourultimateprofessionalcareerhub.com) | YouTube 6153ms"
+    type: trojan
+    server: 208.69.78.208
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: resources.yourultimateprofessionalcareerhub.com
+  - name: "🌐 [VAL41K/bypass-rkn-blocks (README (all_valid_proxies.txt))] TROJAN (8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net) | YouTube 524ms"
+    type: trojan
+    server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+    port: 443
+    password: "6cddea99-9b18-4d42-8638-131bd9f5374f"
+    udp: true
+    sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+  - name: "🌐 [RKP (ЧС)] TROJAN (blog.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 836ms"
+    type: trojan
+    server: 170.101.101.131
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    udp: true
+    sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
+  - name: "🌐 [FalerChannel/FalerChannel (README (v2ray.txt))] VLESS (sub.vicdn.dev) | YouTube 871ms"
+    type: vless
+    server: sub.vicdn.dev
+    port: 8080
+    uuid: "6bffe2e2-86f1-4778-b09d-299db8fe4c3e"
+    network: ws
+    tls: true
+    udp: true
+  - name: "🌐 [FalerChannel/FalerChannel (README (v2ray.txt))] VLESS (sub.vicdn.dev) | YouTube 957ms"
+    type: vless
+    server: sub.vicdn.dev
+    port: 2082
+    uuid: "6bffe2e2-86f1-4778-b09d-299db8fe4c3e"
+    network: ws
+    tls: true
+    udp: true
+  - name: "🌐 [Gidroksi (ЧС)] VLESS (node-slo05.rkitman.ru) | YouTube 1582ms"
+    type: vless
+    server: 92.42.201.160
+    port: 14443
+    uuid: "a60da2ca-0abf-49f8-9dcb-156989d76ad2"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: ee2.japancase.site
+    servername: node-slo05.rkitman.ru
     reality-opts:
-      public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-      short-id: "41ae8e266bc3346f"
+      public-key: fmZQYGYXw4xYtiuMFvH4Dgse1DBoGazt-vWM7LOdchY
+      short-id: "e013fa99a81badcc"
     client-fingerprint: firefox
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 643ms"
-    type: trojan
-    server: 69.164.240.85
-    port: 50875
-    password: "nwilryafgkyvuxauc8pz"
-    udp: true
-    sni: 69.164.240.85
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 749ms"
-    type: trojan
-    server: 216.152.155.54
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: learn.nextjobopportunityandclaimyouridealrole.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (www.cloudflare.com) | YouTube 775ms"
+  - name: "🌐 [Gidroksi (ЧС)] VLESS (node-slo04.rkitman.ru) | YouTube 5117ms"
     type: vless
-    server: 23.95.115.116
-    port: 2053
-    uuid: "2739258b-a278-4bed-bc5d-f88830824dce"
+    server: 92.42.201.155
+    port: 14443
+    uuid: "a60da2ca-0abf-49f8-9dcb-156989d76ad2"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.cloudflare.com
+    servername: node-slo04.rkitman.ru
     reality-opts:
-      public-key: plwyjJZIVDt1OtwDAxfcLjDsR7dseVCe9Ia3HceIKEg
-      short-id: "a1b2c3d4"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 891ms"
-    type: vless
-    server: 15.204.97.214
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: "01"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (api.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 904ms"
-    type: trojan
-    server: 170.101.101.211
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (addons.mozilla.org) | YouTube 912ms"
-    type: vless
-    server: 148.135.86.162
-    port: 10000
-    uuid: "327b1113-049e-4256-8d72-8815643dbb65"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: addons.mozilla.org
-    reality-opts:
-      public-key: DCbnS4mIPc1W2-wI0MGHhykwzf2nVuZvBadErSE6MxU
-      short-id: "a1b2c3d4"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 912ms"
-    type: trojan
-    server: blog.findlocaljobnetworkandbuildcommunityconnections.com
-    port: 443
-    password: "dba20dcb635e430fa4d3bfc303a149d2"
-    udp: true
-    sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (cdn.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 920ms"
-    type: trojan
-    server: 216.106.186.46
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: cdn.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: "🌐 [KFWL (ЧС)] TROJAN (api.discovergreatjobsandadvanceyourcareer.com) | YouTube 923ms"
-    type: trojan
-    server: 66.163.118.244
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: api.discovergreatjobsandadvanceyourcareer.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (api.unlockyourfuturefindyourperfectcareer.com) | YouTube 927ms"
-    type: trojan
-    server: 66.163.112.76
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: api.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com) | YouTube 1001ms"
-    type: trojan
-    server: 169.197.140.224
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.connectingpeoplewithgreatjobs.com) | YouTube 1021ms"
-    type: trojan
-    server: 216.152.147.89
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: www.connectingpeoplewithgreatjobs.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (resources.unlockyourfuturefindyourperfectcareer.com) | YouTube 1074ms"
-    type: trojan
-    server: 66.163.112.242
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: resources.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (cdn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1086ms"
-    type: trojan
-    server: 66.163.112.142
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: cdn.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (hk1.japancase.site) | YouTube 1091ms"
-    type: vless
-    server: 85.155.149.190
-    port: 443
-    uuid: "db80088c-32a1-4cb8-a907-0f3cb7844152"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: hk1.japancase.site
-    reality-opts:
-      public-key: pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY
-      short-id: "bee10b047804c637"
-    client-fingerprint: chrome
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (courses.connectingpeoplewithgreatjobs.com) | YouTube 1093ms"
-    type: trojan
-    server: 216.152.147.48
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: courses.connectingpeoplewithgreatjobs.com
-  - name: "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1097ms"
-    type: vless
-    server: 23.95.222.127
-    port: 8443
-    uuid: "352ff568-f971-4613-bf48-92997a5d44ed"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
-      short-id: "35cd899f8de04801"
-    client-fingerprint: chrome
-  - name: "🌐 [KFWL (Gemini)] TROJAN (resources.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1106ms"
-    type: trojan
-    server: 216.106.186.33
-    port: 443
-    password: "f0eb8c92ce8946aaba856569cff1a16b"
-    udp: true
-    sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: "🌐 [KFWL (Gemini)] TROJAN (unlockyourfuturefindyourperfectcareer.com) | YouTube 1117ms"
-    type: trojan
-    server: 66.163.112.31
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (learn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-    type: trojan
-    server: 66.163.112.171
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: learn.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [KFWL (Gemini)] TROJAN (blog.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-    type: trojan
-    server: 66.163.112.13
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: blog.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [KFWL (Gemini)] TROJAN (courses.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-    type: trojan
-    server: 66.163.112.147
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: courses.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (blog.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1189ms"
-    type: trojan
-    server: 216.106.186.32
-    port: 443
-    password: "dba20dcb635e430fa4d3bfc303a149d2"
-    udp: true
-    sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  - name: "🌐 [Diversan313/apex-parser (README (alive_full.txt))] TROJAN (findtemporaryworkandfreelancerprojectsonlineplatform.com) | YouTube 1190ms"
-    type: trojan
-    server: 216.238.104.154
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
-  - name: "🌐 [KFWL (ЧС)] VLESS (3h-kazakhstan1.09vpn.com) | YouTube 1234ms"
-    type: vless
-    server: 3h-kazakhstan1.09vpn.com
-    port: 8443
-    uuid: "2424febb-43cb-488d-bdd1-401e923c8e48"
-    network: ws
-    tls: true
-    udp: true
-    servername: 3h-kazakhstan1.09vpn.com
-  - name: "🌐 [KFWL (Full ЧС)] VLESS (95.128.71.79) | YouTube 1240ms"
-    type: vless
-    server: 95.128.71.79
-    port: 14430
-    uuid: "8cef7621-c6f0-486e-b51d-59c30c5b0b25"
-    network: ws
-    tls: true
-    udp: true
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (www.unlockyourfuturefindyourperfectcareer.com) | YouTube 1251ms"
-    type: trojan
-    server: 66.163.112.121
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: www.unlockyourfuturefindyourperfectcareer.com
-  - name: "🌐 [KFWL (Full ЧС)] VLESS | YouTube 1272ms"
-    type: vless
-    server: 95.174.68.188
-    port: 14430
-    uuid: "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0"
-    network: ws
-    tls: true
-    udp: true
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 1278ms"
-    type: trojan
-    server: 216.238.80.100
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: connectwithtopemployersandfindidealjobs.com
-  - name: "🌐 [KFWL (Full ЧС)] VLESS (fuji.etherhub.cc) | YouTube 1399ms"
-    type: vless
-    server: fuji.etherhub.cc
-    port: 443
-    uuid: "7072eeba-94fd-4fb3-92f2-a4506dd84cd8"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fuji.etherhub.cc
-    reality-opts:
-      public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
-      short-id: "bd6f67b6b2152b45"
+      public-key: mGTe1s-luknrPURs4KI4fjdCXZAq03f_-b7by6Dr-CI
+      short-id: "e204defc87a8949e"
     client-fingerprint: firefox
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (connectwithemployerstohireyouridealteam.com) | YouTube 1493ms"
-    type: trojan
-    server: 45.63.30.142
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: connectwithemployerstohireyouridealteam.com
-  - name: "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1504ms"
-    type: vless
-    server: 3.39.4.109
-    port: 13672
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-      short-id: "48050fab"
-    client-fingerprint: chrome
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (advanceyouremploymentskillsandcareerdevelopmenthub.com) | YouTube 1521ms"
-    type: trojan
-    server: 64.176.7.205
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-  - name: "🌐 [Diversan313/apex-parser (README (alive_full.txt))] VLESS (www.tesla.com) | YouTube 1576ms"
-    type: vless
-    server: 134.185.81.5
-    port: 47881
-    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.tesla.com
-    reality-opts:
-      public-key: 6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4
-      short-id: "38d72071"
-    client-fingerprint: chrome
-  - name: "🌐 [KFWL (Full ЧС)] VLESS (sg1.zestapp778.com) | YouTube 1679ms"
-    type: vless
-    server: sg1.zestapp778.com
-    port: 56984
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: tcp
-    tls: true
-    udp: true
-    servername: sg1.zestapp778.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 2119ms"
-    type: trojan
-    server: 170.101.101.19
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 2134ms"
-    type: trojan
-    server: 216.152.156.81
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: 216.152.156.81
-  - name: "🌐 [KFWL (ЧС)] VLESS (se3.shtil.io) | YouTube 2265ms"
-    type: vless
-    server: 194.104.94.141
-    port: 443
-    uuid: "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6"
-    network: tcp
-    tls: true
-    udp: true
-    servername: se3.shtil.io
-  - name: "🌐 [KFWL (Gemini)] TROJAN (cdn.findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2387ms"
-    type: trojan
-    server: 66.163.114.45
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 2512ms"
-    type: trojan
-    server: 216.152.155.23
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: courses.nextjobopportunityandclaimyouridealrole.com
-  - name: "🌐 [KFWL (Full ЧС)] TROJAN (findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2591ms"
-    type: trojan
-    server: 66.163.114.245
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: findconnectwithemployersandbuildprofessionalnetwork.com
-  - name: "🌐 [KFWL (Full ЧС)] VLESS (13.140.56.100) | YouTube 2869ms"
-    type: vless
-    server: 13.140.56.100
-    port: 14430
-    uuid: "68512eac-cd53-4de3-8d1e-08f6e04af1a9"
-    network: ws
-    tls: true
-    udp: true
-  - name: "🌐 [KFWL (Full ЧС)] VLESS (in001.zestapp778.com) | YouTube 3208ms"
-    type: vless
-    server: in001.zestapp778.com
-    port: 57353
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: tcp
-    tls: true
-    udp: true
-    servername: in001.zestapp778.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.connectingpeoplewithgreatjobs.com) | YouTube 3351ms"
-    type: trojan
-    server: 216.152.147.152
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    udp: true
-    sni: learn.connectingpeoplewithgreatjobs.com
-  - name: "🌐 [free18/v2ray (README (v.txt))] VLESS (us007.zestapp778.com) | YouTube 4252ms"
-    type: vless
-    server: 108.61.119.63
-    port: 18580
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    network: tcp
-    tls: true
-    udp: true
-    servername: us007.zestapp778.com
 
 proxy-groups:
   - name: 🛡️ Белые Списки (Выбор)
@@ -587,64 +217,23 @@ proxy-groups:
       - 🇷🇺 Только Белые Списки (БС)
       - 🛡️ Fallback
       - DIRECT
-      - "🌐 [KFWL (Full ЧС)] VLESS (SC-TheNetherlands1.09vpn.com) | YouTube 353ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 365ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 367ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 369ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 373ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 377ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 380ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 424ms"
-      - "🌐 [KFWL (ЧС)] VLESS (gb1.japancase.site) | YouTube 470ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.iloverussia2026.com) | YouTube 560ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (tr1.japancase.site) | YouTube 616ms"
-      - "🌐 [KFWL (ЧС)] VLESS (at1.japancase.site) | YouTube 637ms"
-      - "🌐 [KFWL (ЧС)] VLESS (ee2.japancase.site) | YouTube 642ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 643ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 749ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (www.cloudflare.com) | YouTube 775ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 891ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (api.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 904ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (addons.mozilla.org) | YouTube 912ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 912ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (cdn.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 920ms"
-      - "🌐 [KFWL (ЧС)] TROJAN (api.discovergreatjobsandadvanceyourcareer.com) | YouTube 923ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (api.unlockyourfuturefindyourperfectcareer.com) | YouTube 927ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com) | YouTube 1001ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.connectingpeoplewithgreatjobs.com) | YouTube 1021ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (resources.unlockyourfuturefindyourperfectcareer.com) | YouTube 1074ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (cdn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1086ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (hk1.japancase.site) | YouTube 1091ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (courses.connectingpeoplewithgreatjobs.com) | YouTube 1093ms"
-      - "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1097ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (resources.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1106ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (unlockyourfuturefindyourperfectcareer.com) | YouTube 1117ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (learn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (blog.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (courses.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (blog.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1189ms"
-      - "🌐 [Diversan313/apex-parser (README (alive_full.txt))] TROJAN (findtemporaryworkandfreelancerprojectsonlineplatform.com) | YouTube 1190ms"
-      - "🌐 [KFWL (ЧС)] VLESS (3h-kazakhstan1.09vpn.com) | YouTube 1234ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (95.128.71.79) | YouTube 1240ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (www.unlockyourfuturefindyourperfectcareer.com) | YouTube 1251ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS | YouTube 1272ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 1278ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (fuji.etherhub.cc) | YouTube 1399ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (connectwithemployerstohireyouridealteam.com) | YouTube 1493ms"
-      - "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1504ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (advanceyouremploymentskillsandcareerdevelopmenthub.com) | YouTube 1521ms"
-      - "🌐 [Diversan313/apex-parser (README (alive_full.txt))] VLESS (www.tesla.com) | YouTube 1576ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (sg1.zestapp778.com) | YouTube 1679ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 2119ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 2134ms"
-      - "🌐 [KFWL (ЧС)] VLESS (se3.shtil.io) | YouTube 2265ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (cdn.findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2387ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 2512ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2591ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (13.140.56.100) | YouTube 2869ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (in001.zestapp778.com) | YouTube 3208ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.connectingpeoplewithgreatjobs.com) | YouTube 3351ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (us007.zestapp778.com) | YouTube 4252ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (searchhealthcarejobsandbuildmedicalcareerpathway.com) | YouTube 462ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (nl4.japancase.site) | YouTube 734ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (13e1cfg.plp1.h1cloud.net) | YouTube 786ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (d58daft.plp1.h1cloud.net) | YouTube 862ms"
+      - "🇷🇺 [Rjsxrd] VLESS (gamenews.best) | YouTube 1139ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (7cabc1g.de-p1.h1clayd.click) | YouTube 1500ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (f0d7aft.nl13.h1clayd.click) | YouTube 1939ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (3fb2b6t.se1.h1clayd.click) | YouTube 2760ms"
+      - "🇷🇺 [RKP (БС)] VLESS (tz5gtjwlki.j.cloudfront.hls.hlsnode.net) | YouTube 3174ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (961ec0g.nl13.h1clayd.click) | YouTube 4110ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (resources.yourultimateprofessionalcareerhub.com) | YouTube 6153ms"
+      - "🌐 [VAL41K/bypass-rkn-blocks (README (all_valid_proxies.txt))] TROJAN (8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net) | YouTube 524ms"
+      - "🌐 [RKP (ЧС)] TROJAN (blog.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 836ms"
+      - "🌐 [FalerChannel/FalerChannel (README (v2ray.txt))] VLESS (sub.vicdn.dev) | YouTube 871ms"
+      - "🌐 [FalerChannel/FalerChannel (README (v2ray.txt))] VLESS (sub.vicdn.dev) | YouTube 957ms"
+      - "🌐 [Gidroksi (ЧС)] VLESS (node-slo05.rkitman.ru) | YouTube 1582ms"
+      - "🌐 [Gidroksi (ЧС)] VLESS (node-slo04.rkitman.ru) | YouTube 5117ms"
 
   - name: ⚡ Самый быстрый (URL-Test)
     type: url-test
@@ -652,64 +241,23 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🌐 [KFWL (Full ЧС)] VLESS (SC-TheNetherlands1.09vpn.com) | YouTube 353ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 365ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 367ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 369ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 373ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 377ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 380ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 424ms"
-      - "🌐 [KFWL (ЧС)] VLESS (gb1.japancase.site) | YouTube 470ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.iloverussia2026.com) | YouTube 560ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (tr1.japancase.site) | YouTube 616ms"
-      - "🌐 [KFWL (ЧС)] VLESS (at1.japancase.site) | YouTube 637ms"
-      - "🌐 [KFWL (ЧС)] VLESS (ee2.japancase.site) | YouTube 642ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 643ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 749ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (www.cloudflare.com) | YouTube 775ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 891ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (api.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 904ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (addons.mozilla.org) | YouTube 912ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 912ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (cdn.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 920ms"
-      - "🌐 [KFWL (ЧС)] TROJAN (api.discovergreatjobsandadvanceyourcareer.com) | YouTube 923ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (api.unlockyourfuturefindyourperfectcareer.com) | YouTube 927ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com) | YouTube 1001ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.connectingpeoplewithgreatjobs.com) | YouTube 1021ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (resources.unlockyourfuturefindyourperfectcareer.com) | YouTube 1074ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (cdn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1086ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (hk1.japancase.site) | YouTube 1091ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (courses.connectingpeoplewithgreatjobs.com) | YouTube 1093ms"
-      - "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1097ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (resources.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1106ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (unlockyourfuturefindyourperfectcareer.com) | YouTube 1117ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (learn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (blog.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (courses.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (blog.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1189ms"
-      - "🌐 [Diversan313/apex-parser (README (alive_full.txt))] TROJAN (findtemporaryworkandfreelancerprojectsonlineplatform.com) | YouTube 1190ms"
-      - "🌐 [KFWL (ЧС)] VLESS (3h-kazakhstan1.09vpn.com) | YouTube 1234ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (95.128.71.79) | YouTube 1240ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (www.unlockyourfuturefindyourperfectcareer.com) | YouTube 1251ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS | YouTube 1272ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 1278ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (fuji.etherhub.cc) | YouTube 1399ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (connectwithemployerstohireyouridealteam.com) | YouTube 1493ms"
-      - "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1504ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (advanceyouremploymentskillsandcareerdevelopmenthub.com) | YouTube 1521ms"
-      - "🌐 [Diversan313/apex-parser (README (alive_full.txt))] VLESS (www.tesla.com) | YouTube 1576ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (sg1.zestapp778.com) | YouTube 1679ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 2119ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 2134ms"
-      - "🌐 [KFWL (ЧС)] VLESS (se3.shtil.io) | YouTube 2265ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (cdn.findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2387ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 2512ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2591ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (13.140.56.100) | YouTube 2869ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (in001.zestapp778.com) | YouTube 3208ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.connectingpeoplewithgreatjobs.com) | YouTube 3351ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (us007.zestapp778.com) | YouTube 4252ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (searchhealthcarejobsandbuildmedicalcareerpathway.com) | YouTube 462ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (nl4.japancase.site) | YouTube 734ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (13e1cfg.plp1.h1cloud.net) | YouTube 786ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (d58daft.plp1.h1cloud.net) | YouTube 862ms"
+      - "🇷🇺 [Rjsxrd] VLESS (gamenews.best) | YouTube 1139ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (7cabc1g.de-p1.h1clayd.click) | YouTube 1500ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (f0d7aft.nl13.h1clayd.click) | YouTube 1939ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (3fb2b6t.se1.h1clayd.click) | YouTube 2760ms"
+      - "🇷🇺 [RKP (БС)] VLESS (tz5gtjwlki.j.cloudfront.hls.hlsnode.net) | YouTube 3174ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (961ec0g.nl13.h1clayd.click) | YouTube 4110ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (resources.yourultimateprofessionalcareerhub.com) | YouTube 6153ms"
+      - "🌐 [VAL41K/bypass-rkn-blocks (README (all_valid_proxies.txt))] TROJAN (8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net) | YouTube 524ms"
+      - "🌐 [RKP (ЧС)] TROJAN (blog.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 836ms"
+      - "🌐 [FalerChannel/FalerChannel (README (v2ray.txt))] VLESS (sub.vicdn.dev) | YouTube 871ms"
+      - "🌐 [FalerChannel/FalerChannel (README (v2ray.txt))] VLESS (sub.vicdn.dev) | YouTube 957ms"
+      - "🌐 [Gidroksi (ЧС)] VLESS (node-slo05.rkitman.ru) | YouTube 1582ms"
+      - "🌐 [Gidroksi (ЧС)] VLESS (node-slo04.rkitman.ru) | YouTube 5117ms"
 
   - name: 🇷🇺 Только Белые Списки (БС)
     type: url-test
@@ -717,78 +265,31 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🌐 [KFWL (Full ЧС)] VLESS (SC-TheNetherlands1.09vpn.com) | YouTube 353ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 365ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 367ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 369ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 373ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 377ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 380ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 424ms"
-      - "🌐 [KFWL (ЧС)] VLESS (gb1.japancase.site) | YouTube 470ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.iloverussia2026.com) | YouTube 560ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (tr1.japancase.site) | YouTube 616ms"
-      - "🌐 [KFWL (ЧС)] VLESS (at1.japancase.site) | YouTube 637ms"
-      - "🌐 [KFWL (ЧС)] VLESS (ee2.japancase.site) | YouTube 642ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 643ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.nextjobopportunityandclaimyouridealrole.com) | YouTube 749ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (www.cloudflare.com) | YouTube 775ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 891ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (api.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 904ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (addons.mozilla.org) | YouTube 912ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 912ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (cdn.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 920ms"
-      - "🌐 [KFWL (ЧС)] TROJAN (api.discovergreatjobsandadvanceyourcareer.com) | YouTube 923ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (api.unlockyourfuturefindyourperfectcareer.com) | YouTube 927ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com) | YouTube 1001ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (www.connectingpeoplewithgreatjobs.com) | YouTube 1021ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (resources.unlockyourfuturefindyourperfectcareer.com) | YouTube 1074ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (cdn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1086ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (hk1.japancase.site) | YouTube 1091ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (courses.connectingpeoplewithgreatjobs.com) | YouTube 1093ms"
-      - "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1097ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (resources.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1106ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (unlockyourfuturefindyourperfectcareer.com) | YouTube 1117ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (learn.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (blog.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (courses.unlockyourfuturefindyourperfectcareer.com) | YouTube 1119ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (blog.findlocaljobnetworkandbuildcommunityconnections.com) | YouTube 1189ms"
-      - "🌐 [Diversan313/apex-parser (README (alive_full.txt))] TROJAN (findtemporaryworkandfreelancerprojectsonlineplatform.com) | YouTube 1190ms"
-      - "🌐 [KFWL (ЧС)] VLESS (3h-kazakhstan1.09vpn.com) | YouTube 1234ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (95.128.71.79) | YouTube 1240ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (www.unlockyourfuturefindyourperfectcareer.com) | YouTube 1251ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS | YouTube 1272ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (connectwithtopemployersandfindidealjobs.com) | YouTube 1278ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (fuji.etherhub.cc) | YouTube 1399ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (connectwithemployerstohireyouridealteam.com) | YouTube 1493ms"
-      - "🌐 [flaafix/AetrisVPN (AetrisVPN.txt)] VLESS (www.apple.com) | YouTube 1504ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (advanceyouremploymentskillsandcareerdevelopmenthub.com) | YouTube 1521ms"
-      - "🌐 [Diversan313/apex-parser (README (alive_full.txt))] VLESS (www.tesla.com) | YouTube 1576ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (sg1.zestapp778.com) | YouTube 1679ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.explorecreativejobsandenhanceyourcareerportfolio.com) | YouTube 2119ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN | YouTube 2134ms"
-      - "🌐 [KFWL (ЧС)] VLESS (se3.shtil.io) | YouTube 2265ms"
-      - "🌐 [KFWL (Gemini)] TROJAN (cdn.findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2387ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (courses.nextjobopportunityandclaimyouridealrole.com) | YouTube 2512ms"
-      - "🌐 [KFWL (Full ЧС)] TROJAN (findconnectwithemployersandbuildprofessionalnetwork.com) | YouTube 2591ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (13.140.56.100) | YouTube 2869ms"
-      - "🌐 [KFWL (Full ЧС)] VLESS (in001.zestapp778.com) | YouTube 3208ms"
-      - "🌐 [free18/v2ray (README (v.txt))] TROJAN (learn.connectingpeoplewithgreatjobs.com) | YouTube 3351ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (us007.zestapp778.com) | YouTube 4252ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (searchhealthcarejobsandbuildmedicalcareerpathway.com) | YouTube 462ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (nl4.japancase.site) | YouTube 734ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (13e1cfg.plp1.h1cloud.net) | YouTube 786ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (d58daft.plp1.h1cloud.net) | YouTube 862ms"
+      - "🇷🇺 [Rjsxrd] VLESS (gamenews.best) | YouTube 1139ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (7cabc1g.de-p1.h1clayd.click) | YouTube 1500ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (f0d7aft.nl13.h1clayd.click) | YouTube 1939ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (3fb2b6t.se1.h1clayd.click) | YouTube 2760ms"
+      - "🇷🇺 [RKP (БС)] VLESS (tz5gtjwlki.j.cloudfront.hls.hlsnode.net) | YouTube 3174ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (961ec0g.nl13.h1clayd.click) | YouTube 4110ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (resources.yourultimateprofessionalcareerhub.com) | YouTube 6153ms"
 
   - name: 🛡️ Fallback
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "🌐 [KFWL (Full ЧС)] VLESS (SC-TheNetherlands1.09vpn.com) | YouTube 353ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 365ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 367ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 369ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 373ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 377ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 380ms"
-      - "🌐 [free18/v2ray (README (v.txt))] VLESS (fuck.rkn) | YouTube 424ms"
+      - "🇷🇺 [Rjsxrd] TROJAN (searchhealthcarejobsandbuildmedicalcareerpathway.com) | YouTube 462ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (nl4.japancase.site) | YouTube 734ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (13e1cfg.plp1.h1cloud.net) | YouTube 786ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (d58daft.plp1.h1cloud.net) | YouTube 862ms"
+      - "🇷🇺 [Rjsxrd] VLESS (gamenews.best) | YouTube 1139ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (7cabc1g.de-p1.h1clayd.click) | YouTube 1500ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (f0d7aft.nl13.h1clayd.click) | YouTube 1939ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (3fb2b6t.se1.h1clayd.click) | YouTube 2760ms"
 
 rules:
   - DOMAIN-SUFFIX,ru,DIRECT
