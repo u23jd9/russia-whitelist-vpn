@@ -1774,5 +1774,41 @@
     "is_bs": false,
     "discovered_at": "2026-11-03 23:04:26 UTC",
     "id": 195
+  },
+  {
+    "name": "0xRadikal/Free-Telegram-Proxy (README (configs_base64.txt))",
+    "category": "GitHub Bypass",
+    "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt",
+    "author": "0xRadikal",
+    "link": "https://github.com/0xRadikal/Free-Telegram-Proxy",
+    "stars": 220,
+    "keys_count": 1140,
+    "is_bs": false,
+    "discovered_at": "2026-11-06 23:01:18 UTC",
+    "id": 196
+  },
+  {
+    "name": "0xRadikal/Free-Telegram-Proxy (README (top100.txt))",
+    "category": "GitHub Bypass",
+    "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt",
+    "author": "0xRadikal",
+    "link": "https://github.com/0xRadikal/Free-Telegram-Proxy",
+    "stars": 220,
+    "keys_count": 65,
+    "is_bs": false,
+    "discovered_at": "2026-11-06 23:02:16 UTC",
+    "id": 197
+  },
+  {
+    "name": "B3B3097/paraser (v2ray_sub_base64.txt)",
+    "category": "GitHub Bypass",
+    "url": "https://raw.githubusercontent.com/B3B3097/paraser/main/v2ray_sub_base64.txt",
+    "author": "B3B3097",
+    "link": "https://github.com/B3B3097/paraser",
+    "stars": 5,
+    "keys_count": 6450,
+    "is_bs": false,
+    "discovered_at": "2026-11-06 23:05:09 UTC",
+    "id": 198
   }
 ]
