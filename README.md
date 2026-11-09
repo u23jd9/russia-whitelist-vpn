@@ -3,7 +3,7 @@
 > **Автоматически валидированный каталог серверов для работы в белых списках мобильных операторов РФ и обхода DPI.**
 > Все серверы протестированы на сквозное соединение с **YouTube** и ресурсами Google.
 
-📅 **Последнее обновление:** `2026-11-07 21:06:38 UTC`  
+📅 **Последнее обновление:** `2026-11-09 13:07:25 UTC`  
 ⚡ **Проверенных рабочих серверов:** `50` шт. (из них строго в БС: `50` шт.)
 
 ---
@@ -45,16 +45,16 @@
 | 18 | **Luxxuria** | `Non-RU` | 0 | [luxxuria](https://github.com/luxxuria/harvester) |
 | 19 | **Severny LTE** | `LTE БС` | 0 | [Severny](https://tri.su/nwkL7) |
 | 20 | **Shatak** | `RU VLESS` | 0 | [ShatakVPN](https://github.com/ShatakVPN/ConfigForge-V2Ray) |
-| 21 | **Ghost** | `БС` | **1** | [ewecrow78-gif](https://github.com/ewecrow78-gif/whitelist1) |
+| 21 | **Ghost** | `БС` | 0 | [ewecrow78-gif](https://github.com/ewecrow78-gif/whitelist1) |
 | 22 | **VPN From Kirill** | `Free` | 0 | [Kirill](https://free.vpn-from-kirill.workers.dev/) |
-| 23 | **HardVPN** | `LTE БС` | **33** | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
+| 23 | **HardVPN** | `LTE БС` | **30** | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
 | 24 | **MobilVPN** | `Gist` | 0 | [MobilVPN](https://gist.github.com/MobilVPN) |
 | 25 | **Vlesstrojan** | `RU White All` | 0 | [kort0881](https://github.com/kort0881/vpn-checker-backend) |
 | 26 | **Kizяк (БС)** | `БС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 27 | **Kizяк (ЧС)** | `ЧС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 28 | **Gidroksi (БС)** | `БС` | 0 | [gidro](https://gitverse.ru/gidro/white) |
 | 29 | **Gidroksi (ЧС)** | `ЧС` | 0 | [gidro](https://gidroksi.fun) |
-| 30 | **Apex (БС)** | `БС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
+| 30 | **Apex (БС)** | `БС` | **9** | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 31 | **Apex (ЧС)** | `ЧС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 32 | **Aetris (БС)** | `БС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-white-list-lite) |
 | 33 | **Aetris (ЧС)** | `ЧС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-black-list) |
@@ -128,11 +128,11 @@
 | 101 | **SEKTANTTA/antibabkavpn (regular.txt)** | `GitHub Bypass` | 0 | [SEKTANTTA](https://github.com/SEKTANTTA/antibabkavpn) |
 | 102 | **SEKTANTTA/antibabkavpn (ru_only.txt)** | `GitHub Bypass` | 0 | [SEKTANTTA](https://github.com/SEKTANTTA/antibabkavpn) |
 | 103 | **Diversan313/apex-parser (README (alive_plain_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
-| 104 | **Diversan313/apex-parser (README (alive_plain_bs.txt))** | `GitHub Bypass` | **2** | [Diversan313](https://github.com/Diversan313/apex-parser) |
+| 104 | **Diversan313/apex-parser (README (alive_plain_bs.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 105 | **Diversan313/apex-parser (README (alive_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 106 | **Diversan313/apex-parser (README (alive_AI.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 107 | **Diversan313/apex-parser (README (alive_plain_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
-| 108 | **Diversan313/apex-parser (README (alive_plain_bs.txt))** | `GitHub Bypass` | **2** | [Diversan313](https://github.com/Diversan313/apex-parser) |
+| 108 | **Diversan313/apex-parser (README (alive_plain_bs.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 109 | **Diversan313/apex-parser (README (alive_bl.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 110 | **Diversan313/apex-parser (README (alive_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 111 | **Diversan313/apex-parser (README (alive_plain_bl.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
@@ -156,12 +156,12 @@
 | 129 | **wlunlocker/vpn-configs (README (whitelist_all.txt))** | `GitHub БС` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 130 | **wlunlocker/vpn-configs (README (BLACK_VLESS_RUS_mobile.txt))** | `GitHub Bypass` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 131 | **FalerChannel/FalerChannel (README (configs))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 132 | **FalerChannel/FalerChannel (README (whitelistkeys))** | `GitHub БС` | **5** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 132 | **FalerChannel/FalerChannel (README (whitelistkeys))** | `GitHub БС` | **6** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 133 | **FalerChannel/FalerChannel (README (5Frid_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 134 | **FalerChannel/FalerChannel (README (3Wend_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 135 | **FalerChannel/FalerChannel (README (7Sand_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 136 | **FalerChannel/FalerChannel (README (1Mond_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 137 | **FalerChannel/FalerChannel (README (vless.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 137 | **FalerChannel/FalerChannel (README (vless.txt))** | `GitHub Bypass` | **1** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 138 | **FalerChannel/FalerChannel (README (v2ray.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 139 | **FalerChannel/FalerChannel (configs)** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 140 | **FalerChannel/FalerChannel (README (6Satu_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
@@ -170,7 +170,7 @@
 | 143 | **B3B3097/paraser (sub_bs_top_ping.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 144 | **B3B3097/paraser (sub_250_20bs.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 145 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
-| 146 | **B3B3097/paraser (valid_whitelist_links.txt)** | `GitHub БС` | **6** | [B3B3097](https://github.com/B3B3097/paraser) |
+| 146 | **B3B3097/paraser (valid_whitelist_links.txt)** | `GitHub БС` | **4** | [B3B3097](https://github.com/B3B3097/paraser) |
 | 147 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 148 | **B3B3097/paraser (v2ray_sub.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 149 | **B3B3097/paraser (valid_internet_links.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
@@ -220,7 +220,7 @@
 | 193 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 194 | **B3B3097/paraser (README (sub_bs_all_base64.txt))** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 195 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
-| 196 | **0xRadikal/Free-Telegram-Proxy (README (configs_base64.txt))** | `GitHub Bypass` | **3** | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
+| 196 | **0xRadikal/Free-Telegram-Proxy (README (configs_base64.txt))** | `GitHub Bypass` | 0 | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
 | 197 | **0xRadikal/Free-Telegram-Proxy (README (top100.txt))** | `GitHub Bypass` | 0 | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
 | 198 | **B3B3097/paraser (v2ray_sub_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 
