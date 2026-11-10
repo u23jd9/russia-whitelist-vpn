@@ -3,8 +3,8 @@
 > **Автоматически валидированный каталог серверов для работы в белых списках мобильных операторов РФ и обхода DPI.**
 > Все серверы протестированы на сквозное соединение с **YouTube** и ресурсами Google.
 
-📅 **Последнее обновление:** `2026-11-09 13:07:25 UTC`  
-⚡ **Проверенных рабочих серверов:** `50` шт. (из них строго в БС: `50` шт.)
+📅 **Последнее обновление:** `2026-11-10 11:09:31 UTC`  
+⚡ **Проверенных рабочих серверов:** `52` шт. (из них строго в БС: `18` шт.)
 
 ---
 
@@ -47,14 +47,14 @@
 | 20 | **Shatak** | `RU VLESS` | 0 | [ShatakVPN](https://github.com/ShatakVPN/ConfigForge-V2Ray) |
 | 21 | **Ghost** | `БС` | 0 | [ewecrow78-gif](https://github.com/ewecrow78-gif/whitelist1) |
 | 22 | **VPN From Kirill** | `Free` | 0 | [Kirill](https://free.vpn-from-kirill.workers.dev/) |
-| 23 | **HardVPN** | `LTE БС` | **30** | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
+| 23 | **HardVPN** | `LTE БС` | 0 | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
 | 24 | **MobilVPN** | `Gist` | 0 | [MobilVPN](https://gist.github.com/MobilVPN) |
 | 25 | **Vlesstrojan** | `RU White All` | 0 | [kort0881](https://github.com/kort0881/vpn-checker-backend) |
 | 26 | **Kizяк (БС)** | `БС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 27 | **Kizяк (ЧС)** | `ЧС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 28 | **Gidroksi (БС)** | `БС` | 0 | [gidro](https://gitverse.ru/gidro/white) |
 | 29 | **Gidroksi (ЧС)** | `ЧС` | 0 | [gidro](https://gidroksi.fun) |
-| 30 | **Apex (БС)** | `БС` | **9** | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
+| 30 | **Apex (БС)** | `БС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 31 | **Apex (ЧС)** | `ЧС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 32 | **Aetris (БС)** | `БС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-white-list-lite) |
 | 33 | **Aetris (ЧС)** | `ЧС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-black-list) |
@@ -146,8 +146,8 @@
 | 119 | **VAL41K/bypass-rkn-blocks (README (all_valid_proxies.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
 | 120 | **VAL41K/bypass-rkn-blocks (README (BLACK_SS%2BAll_RUS.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
 | 121 | **VAL41K/bypass-rkn-blocks (README (vless_universal.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
-| 122 | **VAL41K/bypass-rkn-blocks (README (AetrisVPN.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
-| 123 | **wlunlocker/vpn-configs (README (blacklist_all.txt))** | `GitHub Bypass` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
+| 122 | **VAL41K/bypass-rkn-blocks (README (AetrisVPN.txt))** | `GitHub Bypass` | **2** | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
+| 123 | **wlunlocker/vpn-configs (README (blacklist_all.txt))** | `GitHub Bypass` | **10** | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 124 | **wlunlocker/vpn-configs (README (blacklist_vpn2.txt))** | `GitHub Bypass` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 125 | **wlunlocker/vpn-configs (README (whitelist_cidr3_eu.txt))** | `GitHub БС` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 126 | **wlunlocker/vpn-configs (README (whitelist_cidr1_ru.txt))** | `GitHub БС` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
@@ -156,21 +156,21 @@
 | 129 | **wlunlocker/vpn-configs (README (whitelist_all.txt))** | `GitHub БС` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 130 | **wlunlocker/vpn-configs (README (BLACK_VLESS_RUS_mobile.txt))** | `GitHub Bypass` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 131 | **FalerChannel/FalerChannel (README (configs))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 132 | **FalerChannel/FalerChannel (README (whitelistkeys))** | `GitHub БС` | **6** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 133 | **FalerChannel/FalerChannel (README (5Frid_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 132 | **FalerChannel/FalerChannel (README (whitelistkeys))** | `GitHub БС` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 133 | **FalerChannel/FalerChannel (README (5Frid_Notorgamers))** | `GitHub Bypass` | **25** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 134 | **FalerChannel/FalerChannel (README (3Wend_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 135 | **FalerChannel/FalerChannel (README (7Sand_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 136 | **FalerChannel/FalerChannel (README (1Mond_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 137 | **FalerChannel/FalerChannel (README (vless.txt))** | `GitHub Bypass` | **1** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 137 | **FalerChannel/FalerChannel (README (vless.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 138 | **FalerChannel/FalerChannel (README (v2ray.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 139 | **FalerChannel/FalerChannel (configs)** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 140 | **FalerChannel/FalerChannel (README (6Satu_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 141 | **FalerChannel/FalerChannel (README (general.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 142 | **FalerChannel/FalerChannel (README (all-servers.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 143 | **B3B3097/paraser (sub_bs_top_ping.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
-| 144 | **B3B3097/paraser (sub_250_20bs.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
+| 144 | **B3B3097/paraser (sub_250_20bs.txt)** | `GitHub Bypass` | **9** | [B3B3097](https://github.com/B3B3097/paraser) |
 | 145 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
-| 146 | **B3B3097/paraser (valid_whitelist_links.txt)** | `GitHub БС` | **4** | [B3B3097](https://github.com/B3B3097/paraser) |
+| 146 | **B3B3097/paraser (valid_whitelist_links.txt)** | `GitHub БС` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 147 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 148 | **B3B3097/paraser (v2ray_sub.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 149 | **B3B3097/paraser (valid_internet_links.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
@@ -185,7 +185,7 @@
 | 158 | **AmazingCoderA/PypsCFG (README (LiteBlackListChecked.b64))** | `GitHub Bypass` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
 | 159 | **AmazingCoderA/PypsCFG (README (WhiteListChecked.b64))** | `GitHub БС` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
 | 160 | **AmazingCoderA/PypsCFG (README (LiteBlackListChecked.txt))** | `GitHub Bypass` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
-| 161 | **AmazingCoderA/PypsCFG (README (LiteWhiteListChecked.b64))** | `GitHub БС` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
+| 161 | **AmazingCoderA/PypsCFG (README (LiteWhiteListChecked.b64))** | `GitHub БС` | **6** | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
 | 162 | **AmazingCoderA/PypsCFG (README (BlackHy2Trojan.txt))** | `GitHub Bypass` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
 | 163 | **AmazingCoderA/PypsCFG (README (WhiteFiltredHy2VlessTrojan.txt))** | `GitHub БС` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
 | 164 | **AmazingCoderA/PypsCFG (README (merged_all.txt))** | `GitHub Bypass` | 0 | [AmazingCoderA](https://github.com/AmazingCoderA/PypsCFG) |
