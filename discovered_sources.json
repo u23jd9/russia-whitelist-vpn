@@ -1810,5 +1810,53 @@
     "is_bs": false,
     "discovered_at": "2026-11-06 23:05:09 UTC",
     "id": 198
+  },
+  {
+    "name": "kfwle/KfWL (README (KfWLcheck.txt))",
+    "category": "GitHub БС",
+    "url": "https://raw.githubusercontent.com/prominbro/KfWL/refs/heads/main/KfWLcheck.txt",
+    "author": "kfwle",
+    "link": "https://github.com/kfwle/KfWL",
+    "stars": 9,
+    "keys_count": 195,
+    "is_bs": true,
+    "discovered_at": "2026-11-11 12:29:21 UTC",
+    "id": 199
+  },
+  {
+    "name": "kfwle/KfWL (README (KfWL.txt))",
+    "category": "GitHub БС",
+    "url": "https://raw.githubusercontent.com/prominbro/KfWL/refs/heads/main/KfWL.txt",
+    "author": "kfwle",
+    "link": "https://github.com/kfwle/KfWL",
+    "stars": 9,
+    "keys_count": 1625,
+    "is_bs": true,
+    "discovered_at": "2026-11-11 12:29:27 UTC",
+    "id": 200
+  },
+  {
+    "name": "kfwle/KfWL (KfWL.txt)",
+    "category": "GitHub БС",
+    "url": "https://raw.githubusercontent.com/kfwle/KfWL/main/KfWL.txt",
+    "author": "kfwle",
+    "link": "https://github.com/kfwle/KfWL",
+    "stars": 9,
+    "keys_count": 1625,
+    "is_bs": true,
+    "discovered_at": "2026-11-11 12:29:28 UTC",
+    "id": 201
+  },
+  {
+    "name": "FalerChannel/FalerChannel (README (vl.txt))",
+    "category": "GitHub Bypass",
+    "url": "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
+    "author": "FalerChannel",
+    "link": "https://github.com/FalerChannel/FalerChannel",
+    "stars": 3,
+    "keys_count": 420430,
+    "is_bs": false,
+    "discovered_at": "2026-11-11 12:29:46 UTC",
+    "id": 202
   }
 ]

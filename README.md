@@ -3,8 +3,8 @@
 > **Автоматически валидированный каталог серверов для работы в белых списках мобильных операторов РФ и обхода DPI.**
 > Все серверы протестированы на сквозное соединение с **YouTube** и ресурсами Google.
 
-📅 **Последнее обновление:** `2026-11-10 17:47:11 UTC`  
-⚡ **Проверенных рабочих серверов:** `1` шт. (из них строго в БС: `0` шт.)
+📅 **Последнее обновление:** `2026-11-12 12:37:50 UTC`  
+⚡ **Проверенных рабочих серверов:** `52` шт. (из них строго в БС: `52` шт.)
 
 ---
 
@@ -25,7 +25,7 @@
 
 | # | Источник / Провайдер | Категория | Рабочих нод | Репозиторий / Канал |
 | :--- | :--- | :---: | :---: | :--- |
-| 1 | **Lime (БС)** | `БС` | 0 | [LimeVPN](https://github.com/LimeHi/LimeVPN) |
+| 1 | **Lime (БС)** | `БС` | **7** | [LimeVPN](https://github.com/LimeHi/LimeVPN) |
 | 2 | **Lime (ЧС)** | `ЧС` | 0 | [LimeVPN](https://github.com/LimeHi/LimeVPN) |
 | 3 | **WL RUS (БС)** | `БС` | 0 | [bywarm](https://gitverse.ru/bywarm/rser) |
 | 4 | **WL RUS (ЧС)** | `ЧС` | 0 | [bywarm](https://gitverse.ru/bywarm/rser) |
@@ -47,14 +47,14 @@
 | 20 | **Shatak** | `RU VLESS` | 0 | [ShatakVPN](https://github.com/ShatakVPN/ConfigForge-V2Ray) |
 | 21 | **Ghost** | `БС` | 0 | [ewecrow78-gif](https://github.com/ewecrow78-gif/whitelist1) |
 | 22 | **VPN From Kirill** | `Free` | 0 | [Kirill](https://free.vpn-from-kirill.workers.dev/) |
-| 23 | **HardVPN** | `LTE БС` | 0 | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
+| 23 | **HardVPN** | `LTE БС` | **26** | [ksenkovsolo](https://github.com/ksenkovsolo/HardVPN-bypass-WhiteLists-) |
 | 24 | **MobilVPN** | `Gist` | 0 | [MobilVPN](https://gist.github.com/MobilVPN) |
 | 25 | **Vlesstrojan** | `RU White All` | 0 | [kort0881](https://github.com/kort0881/vpn-checker-backend) |
 | 26 | **Kizяк (БС)** | `БС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 27 | **Kizяк (ЧС)** | `ЧС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 28 | **Gidroksi (БС)** | `БС` | 0 | [gidro](https://gitverse.ru/gidro/white) |
 | 29 | **Gidroksi (ЧС)** | `ЧС` | 0 | [gidro](https://gidroksi.fun) |
-| 30 | **Apex (БС)** | `БС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
+| 30 | **Apex (БС)** | `БС` | **16** | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 31 | **Apex (ЧС)** | `ЧС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 32 | **Aetris (БС)** | `БС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-white-list-lite) |
 | 33 | **Aetris (ЧС)** | `ЧС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-black-list) |
@@ -67,7 +67,7 @@
 | 40 | **HAPPiVPN (JSON)** | `JSON` | 0 | [gooseteam-hackers](https://github.com/gooseteam-hackers/freevpn-cracks) |
 | 41 | **HAPPiVPN (Default)** | `Default` | 0 | [gooseteam-hackers](https://github.com/gooseteam-hackers/freevpn-cracks) |
 | 42 | **KFWL (БС)** | `БС` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
-| 43 | **KFWL (ЧС)** | `ЧС` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
+| 43 | **KFWL (ЧС)** | `ЧС` | **1** | [KFWL](https://hub.mos.ru/kfwl/auto) |
 | 44 | **KFWL (Gemini)** | `Gemini` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
 | 45 | **KFWL (Full ЧС)** | `Full ЧС` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
 | 46 | **notakeys** | `Keys` | 0 | [wucrd](https://github.com/wucrd/parsing-configs) |
@@ -117,7 +117,7 @@
 | 90 | **MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))** | `GitHub Bypass` | 0 | [MrRabbitson](https://github.com/MrRabbitson/RabbitProxyZ-proxy-list) |
 | 91 | **MrRabbitson/RabbitProxyZ-proxy-list (lite.txt)** | `GitHub Bypass` | 0 | [MrRabbitson](https://github.com/MrRabbitson/RabbitProxyZ-proxy-list) |
 | 92 | **MrRabbitson/RabbitProxyZ-proxy-list (README (lite.txt))** | `GitHub Bypass` | 0 | [MrRabbitson](https://github.com/MrRabbitson/RabbitProxyZ-proxy-list) |
-| 93 | **solovyov-jenya2004/all_subs (README (?n=200`))** | `GitHub Bypass` | **1** | [solovyov-jenya2004](https://github.com/solovyov-jenya2004/all_subs) |
+| 93 | **solovyov-jenya2004/all_subs (README (?n=200`))** | `GitHub Bypass` | 0 | [solovyov-jenya2004](https://github.com/solovyov-jenya2004/all_subs) |
 | 94 | **solovyov-jenya2004/all_subs (README (?n=50`))** | `GitHub Bypass` | 0 | [solovyov-jenya2004](https://github.com/solovyov-jenya2004/all_subs) |
 | 95 | **solovyov-jenya2004/all_subs (final_sorted)** | `GitHub Bypass` | 0 | [solovyov-jenya2004](https://github.com/solovyov-jenya2004/all_subs) |
 | 96 | **solovyov-jenya2004/all_subs (README (final_sorted))** | `GitHub Bypass` | 0 | [solovyov-jenya2004](https://github.com/solovyov-jenya2004/all_subs) |
@@ -156,7 +156,7 @@
 | 129 | **wlunlocker/vpn-configs (README (whitelist_all.txt))** | `GitHub БС` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 130 | **wlunlocker/vpn-configs (README (BLACK_VLESS_RUS_mobile.txt))** | `GitHub Bypass` | 0 | [wlunlocker](https://github.com/wlunlocker/vpn-configs) |
 | 131 | **FalerChannel/FalerChannel (README (configs))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 132 | **FalerChannel/FalerChannel (README (whitelistkeys))** | `GitHub БС` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 132 | **FalerChannel/FalerChannel (README (whitelistkeys))** | `GitHub БС` | **2** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 133 | **FalerChannel/FalerChannel (README (5Frid_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 134 | **FalerChannel/FalerChannel (README (3Wend_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 135 | **FalerChannel/FalerChannel (README (7Sand_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
@@ -223,6 +223,10 @@
 | 196 | **0xRadikal/Free-Telegram-Proxy (README (configs_base64.txt))** | `GitHub Bypass` | 0 | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
 | 197 | **0xRadikal/Free-Telegram-Proxy (README (top100.txt))** | `GitHub Bypass` | 0 | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
 | 198 | **B3B3097/paraser (v2ray_sub_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
+| 199 | **kfwle/KfWL (README (KfWLcheck.txt))** | `GitHub БС` | 0 | [kfwle](https://github.com/kfwle/KfWL) |
+| 200 | **kfwle/KfWL (README (KfWL.txt))** | `GitHub БС` | 0 | [kfwle](https://github.com/kfwle/KfWL) |
+| 201 | **kfwle/KfWL (KfWL.txt)** | `GitHub БС` | 0 | [kfwle](https://github.com/kfwle/KfWL) |
+| 202 | **FalerChannel/FalerChannel (README (vl.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 
 ### 📚 Репозитории белых списков:
 - [`escapingworm/russia-whitelist`](https://github.com/escapingworm/russia-whitelist) — База IP-диапазонов мобильных операторов РФ.
