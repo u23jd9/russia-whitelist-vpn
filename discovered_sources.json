@@ -1858,5 +1858,29 @@
     "is_bs": false,
     "discovered_at": "2026-11-11 12:29:46 UTC",
     "id": 202
+  },
+  {
+    "name": "lanopivijo93782-ops/hiddify-vless-xhttp-parser (sub/subscription.txt)",
+    "category": "GitHub Bypass",
+    "url": "https://raw.githubusercontent.com/lanopivijo93782-ops/hiddify-vless-xhttp-parser/main/sub/subscription.txt",
+    "author": "lanopivijo93782-ops",
+    "link": "https://github.com/lanopivijo93782-ops/hiddify-vless-xhttp-parser",
+    "stars": 2,
+    "keys_count": 2,
+    "is_bs": false,
+    "discovered_at": "2026-11-12 12:39:08 UTC",
+    "id": 203
+  },
+  {
+    "name": "lanopivijo93782-ops/hiddify-vless-xhttp-parser (sub/vless.txt)",
+    "category": "GitHub Bypass",
+    "url": "https://raw.githubusercontent.com/lanopivijo93782-ops/hiddify-vless-xhttp-parser/main/sub/vless.txt",
+    "author": "lanopivijo93782-ops",
+    "link": "https://github.com/lanopivijo93782-ops/hiddify-vless-xhttp-parser",
+    "stars": 2,
+    "keys_count": 2,
+    "is_bs": false,
+    "discovered_at": "2026-11-12 12:39:09 UTC",
+    "id": 204
   }
 ]
