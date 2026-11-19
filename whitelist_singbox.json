@@ -45,22 +45,24 @@
         "🇷🇺 Белые списки (БС)",
         "fallback",
         "direct",
-        "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms",
-        "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms",
-        "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms",
-        "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms",
-        "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms",
-        "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms",
-        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (dl1-tr-cdn.easy-upload.org) | YouTube 558ms",
-        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS | YouTube 719ms",
-        "🌐 [Apex (ЧС)] VLESS (skvoz-dpi.com) | YouTube 1116ms",
-        "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (platform102.golnamakcert.top) | YouTube 1180ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (152.70.237.123) | YouTube 1376ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (bing.com) | YouTube 1428ms",
-        "🌐 [MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))] VLESS | YouTube 1587ms",
-        "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (b3cd32g.es1.h1clayd.click) | YouTube 3837ms"
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 461ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 490ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (speedtest.net) | YouTube 1155ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (video.yahoo.com) | YouTube 1370ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (yahooapis.com) | YouTube 1431ms",
+        "🌐 [notakeys] VLESS (['platform115.halalkhor.info']) | YouTube 1503ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (join.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.t.cloudfront.net.kiava.fun) | YouTube 1583ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt) | YouTube 3608ms"
       ],
       "default": "⚡ Самый быстрый"
     },
@@ -68,22 +70,24 @@
       "type": "urltest",
       "tag": "⚡ Самый быстрый",
       "outbounds": [
-        "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms",
-        "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms",
-        "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms",
-        "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms",
-        "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms",
-        "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms",
-        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (dl1-tr-cdn.easy-upload.org) | YouTube 558ms",
-        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS | YouTube 719ms",
-        "🌐 [Apex (ЧС)] VLESS (skvoz-dpi.com) | YouTube 1116ms",
-        "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (platform102.golnamakcert.top) | YouTube 1180ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (152.70.237.123) | YouTube 1376ms",
-        "🌐 [KFWL (Full ЧС)] HYSTERIA2 (bing.com) | YouTube 1428ms",
-        "🌐 [MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))] VLESS | YouTube 1587ms",
-        "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (b3cd32g.es1.h1clayd.click) | YouTube 3837ms"
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 461ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 490ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (speedtest.net) | YouTube 1155ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (video.yahoo.com) | YouTube 1370ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (yahooapis.com) | YouTube 1431ms",
+        "🌐 [notakeys] VLESS (['platform115.halalkhor.info']) | YouTube 1503ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (join.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.t.cloudfront.net.kiava.fun) | YouTube 1583ms",
+        "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt) | YouTube 3608ms"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -93,12 +97,16 @@
       "type": "urltest",
       "tag": "🇷🇺 Белые списки (БС)",
       "outbounds": [
-        "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms",
-        "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms",
-        "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms",
-        "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms",
-        "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms",
-        "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -108,12 +116,12 @@
       "type": "urltest",
       "tag": "fallback",
       "outbounds": [
-        "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms",
-        "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms",
-        "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms",
-        "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms",
-        "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms",
-        "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms",
+        "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms",
+        "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -125,40 +133,74 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms",
-      "server": "176.32.34.105",
-      "server_port": 8080,
-      "uuid": "FastKey_118173",
-      "flow": "",
-      "transport": {
-        "type": "grpc",
-        "service_name": "api"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms",
-      "server": "136.234.9.13",
-      "server_port": 443,
-      "uuid": "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms",
+      "server": "31.77.170.228",
+      "server_port": 2096,
+      "uuid": "2181d0c8-448a-4f75-b848-1718029baef9",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "345739t.de15.h1clayd.click",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
-          "short_id": "23732d14a527990d"
+          "public_key": "-Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc",
+          "short_id": "afee962d"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc2"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms",
+      "server": "147.45.153.29",
+      "server_port": 443,
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "patch-46.topp-con.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
+          "short_id": "b9120cd53ffd7bba"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms",
+      "server": "217.13.104.101",
+      "server_port": 3443,
+      "uuid": "738f4d80-aff7-4f02-a27d-7168c34181ff",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms",
       "server": "2.26.8.1",
       "server_port": 443,
       "uuid": "2db48a26-c97d-40c3-b8e2-8f04f1cfb512",
@@ -168,7 +210,7 @@
         "server_name": "bg.edgemedia.lol",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -179,213 +221,244 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms",
-      "server": "zfapi.zalolink.com",
-      "server_port": 11802,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "psstatic.cdn.bcebos.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4",
-          "short_id": "6c84fbac2d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms",
-      "server": "zfapi.zalolink.com",
-      "server_port": 47691,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "m.media-amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg",
-          "short_id": "2905326a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms",
-      "server": "zfapi.zalolink.com",
-      "server_port": 54528,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
-          "short_id": "54cca3c1c1c7"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms",
-      "server": "srv-17e124.21freedom.net",
-      "server_port": 11592,
-      "password": "41edb44c8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv-17e124.21freedom.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "140.238.213.114",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (dl1-tr-cdn.easy-upload.org) | YouTube 558ms",
-      "server": "45.8.211.24",
-      "server_port": 2053,
-      "uuid": "ee2bb495-2632-445b-b1f8-3c476a50b78b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl1-tr-cdn.easy-upload.org",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS | YouTube 719ms",
-      "server": "185.226.92.175",
-      "server_port": 36980,
-      "uuid": "0f893963-f1c7-413d-bbb5-76cf19bbe7a4",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 [Apex (ЧС)] VLESS (skvoz-dpi.com) | YouTube 1116ms",
-      "server": "83.217.201.82",
-      "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "skvoz-dpi.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-          "short_id": "93ae75024604f796"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (platform102.golnamakcert.top) | YouTube 1180ms",
-      "server": "platform102.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/platform102"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🌐 [KFWL (Full ЧС)] HYSTERIA2 (152.70.237.123) | YouTube 1376ms",
-      "server": "152.70.237.123",
-      "server_port": 2053,
-      "password": "maintell",
-      "tls": {
-        "enabled": true,
-        "server_name": "152.70.237.123",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🌐 [KFWL (Full ЧС)] HYSTERIA2 (bing.com) | YouTube 1428ms",
-      "server": "8.209.247.109",
-      "server_port": 443,
-      "password": "usqmqUKJFIlCmvkCNSY64L3k",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 [MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))] VLESS | YouTube 1587ms",
-      "server": "ul-mexico1.09vpn.com",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms",
+      "server": "185.229.191.131",
       "server_port": 8443,
-      "uuid": "a6d20e79-d326-42c1-bc20-f4cecc6dc42d",
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ul-mexico1.09vpn.com",
+        "server_name": "ams1.fromblancwithlove.com",
         "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/"
       }
     },
     {
       "type": "vless",
-      "tag": "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (b3cd32g.es1.h1clayd.click) | YouTube 3837ms",
-      "server": "b3cd32g.es1.h1clayd.click",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms",
+      "server": "158.160.59.97",
       "server_port": 443,
-      "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
+      "uuid": "10f1adcb-0cc3-4dd6-99cd-1bca15a56f44",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms",
+      "server": "185.235.241.93",
+      "server_port": 443,
+      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "b3cd32g.es1.h1clayd.click",
+        "server_name": "185.235.241.93",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hormoz"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms",
+      "server": "87.228.101.211",
+      "server_port": 8443,
+      "uuid": "149aa84f-02ae-4b8a-bdf4-057dfa19624b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30",
-          "short_id": "e7cffac9f8cfb434"
+          "public_key": "razU6QTL659hzCH6GUbA8icGt7J4MtOF19Wz5IrumGg",
+          "short_id": "e3a6a0ee012466b3"
         }
-      },
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms",
+      "server": "92.51.23.64",
+      "server_port": 443,
+      "uuid": "df0069ff-8af9-4a46-804c-f8d038d26afd",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sun6-21.userapi.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "meO6N8DeTDzdwCMpO8joOjX21ld8GhmGYs_49ELz0yw",
+          "short_id": "bf1908db60a56098"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms",
+      "server": "83.166.236.201",
+      "server_port": 8443,
+      "uuid": "12a57f4b-813d-4e0f-b15f-2234c71fd41d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc",
+          "short_id": "887c0d72e771a934"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 461ms",
+      "server": "96.47.230.145",
+      "server_port": 19411,
+      "uuid": "b2da9920-b0a7-4354-9e26-3833ab8d00d0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns",
+          "short_id": "01"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 490ms",
+      "server": "144.31.38.207",
+      "server_port": 56410,
+      "uuid": "b2da9920-b0a7-4354-9e26-3833ab8d00d0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns",
+          "short_id": "00"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (speedtest.net) | YouTube 1155ms",
+      "server": "65.109.241.91",
+      "server_port": 443,
+      "uuid": "f8652e9e-a127-49d7-a823-c9730db9d385",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (video.yahoo.com) | YouTube 1370ms",
+      "server": "144.31.38.207",
+      "server_port": 62804,
+      "uuid": "b2da9920-b0a7-4354-9e26-3833ab8d00d0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns",
+          "short_id": "02"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (yahooapis.com) | YouTube 1431ms",
+      "server": "144.31.38.207",
+      "server_port": 64376,
+      "uuid": "b2da9920-b0a7-4354-9e26-3833ab8d00d0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahooapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns",
+          "short_id": "00"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [notakeys] VLESS (['platform115.halalkhor.info']) | YouTube 1503ms",
+      "server": "platform115.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
       "transport": {
-        "type": "grpc",
-        "service_name": ""
+        "type": "ws",
+        "path": "/platform115"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (join.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.t.cloudfront.net.kiava.fun) | YouTube 1583ms",
+      "server": "melonmusic.ir",
+      "server_port": 2052,
+      "uuid": "be2a1410-7f6c-4271-d8b7-4841fad682b3",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/join-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava?ed=2048"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt) | YouTube 3608ms",
+      "server": "python.org",
+      "server_port": 80,
+      "uuid": "f5b662e3-ff29-4549-9229-4f27b3cd50c1",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
       }
     }
   ],

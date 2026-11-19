@@ -1,7 +1,7 @@
 # ============================================================
 # DELETEYOURVPN - Verified Russian Whitelist & Bypass Proxies
-# Generated: 2026-11-19 14:24:57 UTC
-# Total Working Nodes: 16 (Tested with YouTube)
+# Generated: 2026-11-19 15:48:27 UTC
+# Total Working Nodes: 18 (Tested with YouTube)
 # ============================================================
 port: 7890
 socks-port: 7891
@@ -25,28 +25,48 @@ dns:
     - https://1.1.1.1/dns-query
 
 proxies:
-  - name: "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms"
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms"
     type: vless
-    server: 176.32.34.105
-    port: 8080
-    uuid: "FastKey_118173"
+    server: 31.77.170.228
+    port: 2096
+    uuid: "2181d0c8-448a-4f75-b848-1718029baef9"
     network: grpc
     tls: true
     udp: true
-  - name: "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms"
+    servername: max.ru
+    reality-opts:
+      public-key: -Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc
+      short-id: "afee962d"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms"
     type: vless
-    server: 136.234.9.13
+    server: 147.45.153.29
     port: 443
-    uuid: "95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f"
+    uuid: "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
     network: tcp
     tls: true
     udp: true
-    servername: 345739t.de15.h1clayd.click
+    flow: xtls-rprx-vision
+    servername: patch-46.topp-con.xyz
     reality-opts:
-      public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-      short-id: "23732d14a527990d"
+      public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
+      short-id: "b9120cd53ffd7bba"
     client-fingerprint: firefox
-  - name: "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms"
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms"
+    type: vless
+    server: 217.13.104.101
+    port: 3443
+    uuid: "738f4d80-aff7-4f02-a27d-7168c34181ff"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: "6ba85179e30d4fc2"
+    client-fingerprint: chrome
+  - name: "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms"
     type: vless
     server: 2.26.8.1
     port: 443
@@ -59,138 +79,168 @@ proxies:
     reality-opts:
       public-key: t7dd2ar4QX4JaQz2FvVjE44XLT0jj7Z-0raaAQ6Y9As
       short-id: "f822140f54644166"
-    client-fingerprint: firefox
-  - name: "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms"
+    client-fingerprint: edge
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms"
     type: vless
-    server: zfapi.zalolink.com
-    port: 11802
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    server: 185.229.191.131
+    port: 8443
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    network: tcp
+    tls: true
+    udp: true
+    servername: ams1.fromblancwithlove.com
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms"
+    type: vless
+    server: 158.160.59.97
+    port: 443
+    uuid: "10f1adcb-0cc3-4dd6-99cd-1bca15a56f44"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: psstatic.cdn.bcebos.com
+    servername: api-maps.yandex.ru
     reality-opts:
-      public-key: FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4
-      short-id: "6c84fbac2d"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms"
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: "428ef87fd47a3a32"
+    client-fingerprint: qq
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms"
     type: vless
-    server: zfapi.zalolink.com
-    port: 47691
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: m.media-amazon.com
-    reality-opts:
-      public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-      short-id: "2905326a"
-    client-fingerprint: chrome
-  - name: "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
-    type: vless
-    server: zfapi.zalolink.com
-    port: 54528
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    reality-opts:
-      public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-      short-id: "54cca3c1c1c7"
-    client-fingerprint: ios
-  - name: "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms"
-    type: hysteria2
-    server: srv-17e124.21freedom.net
-    port: 11592
-    password: "41edb44c8e"
-    sni: srv-17e124.21freedom.net
-    skip-cert-verify: true
-  - name: "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms"
-    type: hysteria2
-    server: 140.238.213.114
-    port: 50160
-    password: "84a506ca5aca505696a454d828420b3f"
-    sni: 140.238.213.114
-    skip-cert-verify: true
-  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (dl1-tr-cdn.easy-upload.org) | YouTube 558ms"
-    type: vless
-    server: 45.8.211.24
-    port: 2053
-    uuid: "ee2bb495-2632-445b-b1f8-3c476a50b78b"
+    server: 185.235.241.93
+    port: 443
+    uuid: "e615a5ba-fce3-4ffa-9c86-b0327a8a107a"
     network: ws
     tls: true
     udp: true
-    servername: dl1-tr-cdn.easy-upload.org
-  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS | YouTube 719ms"
+    servername: 185.235.241.93
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms"
     type: vless
-    server: 185.226.92.175
-    port: 36980
-    uuid: "0f893963-f1c7-413d-bbb5-76cf19bbe7a4"
+    server: 87.228.101.211
+    port: 8443
+    uuid: "149aa84f-02ae-4b8a-bdf4-057dfa19624b"
     network: tcp
     tls: true
     udp: true
-  - name: "🌐 [Apex (ЧС)] VLESS (skvoz-dpi.com) | YouTube 1116ms"
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: razU6QTL659hzCH6GUbA8icGt7J4MtOF19Wz5IrumGg
+      short-id: "e3a6a0ee012466b3"
+    client-fingerprint: firefox
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms"
     type: vless
-    server: 83.217.201.82
+    server: 92.51.23.64
     port: 443
-    uuid: "ebd1c0d6-7ff4-4b9f-8692-237517a27a64"
+    uuid: "df0069ff-8af9-4a46-804c-f8d038d26afd"
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: skvoz-dpi.com
+    servername: sun6-21.userapi.com
     reality-opts:
-      public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-      short-id: "93ae75024604f796"
+      public-key: meO6N8DeTDzdwCMpO8joOjX21ld8GhmGYs_49ELz0yw
+      short-id: "bf1908db60a56098"
     client-fingerprint: chrome
-  - name: "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (platform102.golnamakcert.top) | YouTube 1180ms"
+  - name: "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms"
     type: vless
-    server: platform102.golnamakcert.top
+    server: 83.166.236.201
+    port: 8443
+    uuid: "12a57f4b-813d-4e0f-b15f-2234c71fd41d"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.vk.com
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: "887c0d72e771a934"
+    client-fingerprint: chrome
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 461ms"
+    type: vless
+    server: 96.47.230.145
+    port: 19411
+    uuid: "b2da9920-b0a7-4354-9e26-3833ab8d00d0"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.yahoo.com
+    reality-opts:
+      public-key: v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns
+      short-id: "01"
+    client-fingerprint: chrome
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 490ms"
+    type: vless
+    server: 144.31.38.207
+    port: 56410
+    uuid: "b2da9920-b0a7-4354-9e26-3833ab8d00d0"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.yahoo.com
+    reality-opts:
+      public-key: v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns
+      short-id: "00"
+    client-fingerprint: chrome
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (speedtest.net) | YouTube 1155ms"
+    type: vless
+    server: 65.109.241.91
+    port: 443
+    uuid: "f8652e9e-a127-49d7-a823-c9730db9d385"
+    network: tcp
+    tls: true
+    udp: true
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (video.yahoo.com) | YouTube 1370ms"
+    type: vless
+    server: 144.31.38.207
+    port: 62804
+    uuid: "b2da9920-b0a7-4354-9e26-3833ab8d00d0"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: video.yahoo.com
+    reality-opts:
+      public-key: v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns
+      short-id: "02"
+    client-fingerprint: chrome
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (yahooapis.com) | YouTube 1431ms"
+    type: vless
+    server: 144.31.38.207
+    port: 64376
+    uuid: "b2da9920-b0a7-4354-9e26-3833ab8d00d0"
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: yahooapis.com
+    reality-opts:
+      public-key: v0qz2dJb5tmR8eeRTMJJ3g5m1wwUyhutkaOMNFLnAns
+      short-id: "00"
+    client-fingerprint: chrome
+  - name: "🌐 [notakeys] VLESS (['platform115.halalkhor.info']) | YouTube 1503ms"
+    type: vless
+    server: platform115.golnamakcert.top
     port: 80
     uuid: "e13cf851-b4fd-413b-8d49-146e6eb8e5d4"
     network: ws
     tls: true
     udp: true
-  - name: "🌐 [KFWL (Full ЧС)] HYSTERIA2 (152.70.237.123) | YouTube 1376ms"
-    type: hysteria2
-    server: 152.70.237.123
-    port: 2053
-    password: "maintell"
-    sni: 152.70.237.123
-    skip-cert-verify: true
-  - name: "🌐 [KFWL (Full ЧС)] HYSTERIA2 (bing.com) | YouTube 1428ms"
-    type: hysteria2
-    server: 8.209.247.109
-    port: 443
-    password: "usqmqUKJFIlCmvkCNSY64L3k"
-    sni: bing.com
-    skip-cert-verify: true
-  - name: "🌐 [MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))] VLESS | YouTube 1587ms"
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (join.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.t.cloudfront.net.kiava.fun) | YouTube 1583ms"
     type: vless
-    server: ul-mexico1.09vpn.com
-    port: 8443
-    uuid: "a6d20e79-d326-42c1-bc20-f4cecc6dc42d"
+    server: melonmusic.ir
+    port: 2052
+    uuid: "be2a1410-7f6c-4271-d8b7-4841fad682b3"
     network: ws
     tls: true
     udp: true
-    servername: ul-mexico1.09vpn.com
-  - name: "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (b3cd32g.es1.h1clayd.click) | YouTube 3837ms"
+  - name: "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt) | YouTube 3608ms"
     type: vless
-    server: b3cd32g.es1.h1clayd.click
-    port: 443
-    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
-    network: grpc
+    server: python.org
+    port: 80
+    uuid: "f5b662e3-ff29-4549-9229-4f27b3cd50c1"
+    network: ws
     tls: true
     udp: true
-    servername: b3cd32g.es1.h1clayd.click
-    reality-opts:
-      public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
-      short-id: "e7cffac9f8cfb434"
-    client-fingerprint: firefox
 
 proxy-groups:
   - name: 🛡️ Белые Списки (Выбор)
@@ -200,22 +250,24 @@ proxy-groups:
       - 🇷🇺 Только Белые Списки (БС)
       - 🛡️ Fallback
       - DIRECT
-      - "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms"
-      - "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms"
-      - "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms"
-      - "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms"
-      - "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms"
-      - "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms"
-      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (dl1-tr-cdn.easy-upload.org) | YouTube 558ms"
-      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS | YouTube 719ms"
-      - "🌐 [Apex (ЧС)] VLESS (skvoz-dpi.com) | YouTube 1116ms"
-      - "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (platform102.golnamakcert.top) | YouTube 1180ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (152.70.237.123) | YouTube 1376ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (bing.com) | YouTube 1428ms"
-      - "🌐 [MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))] VLESS | YouTube 1587ms"
-      - "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (b3cd32g.es1.h1clayd.click) | YouTube 3837ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 461ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 490ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (speedtest.net) | YouTube 1155ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (video.yahoo.com) | YouTube 1370ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (yahooapis.com) | YouTube 1431ms"
+      - "🌐 [notakeys] VLESS (['platform115.halalkhor.info']) | YouTube 1503ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (join.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.t.cloudfront.net.kiava.fun) | YouTube 1583ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt) | YouTube 3608ms"
 
   - name: ⚡ Самый быстрый (URL-Test)
     type: url-test
@@ -223,22 +275,24 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms"
-      - "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms"
-      - "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms"
-      - "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms"
-      - "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms"
-      - "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms"
-      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (dl1-tr-cdn.easy-upload.org) | YouTube 558ms"
-      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS | YouTube 719ms"
-      - "🌐 [Apex (ЧС)] VLESS (skvoz-dpi.com) | YouTube 1116ms"
-      - "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (platform102.golnamakcert.top) | YouTube 1180ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (152.70.237.123) | YouTube 1376ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (bing.com) | YouTube 1428ms"
-      - "🌐 [MrRabbitson/RabbitProxyZ-proxy-list (README (sub.txt))] VLESS | YouTube 1587ms"
-      - "🌐 [wlunlocker/vpn-configs (README (1.txt))] VLESS (b3cd32g.es1.h1clayd.click) | YouTube 3837ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 461ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (m.yahoo.com) | YouTube 490ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (speedtest.net) | YouTube 1155ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (video.yahoo.com) | YouTube 1370ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (yahooapis.com) | YouTube 1431ms"
+      - "🌐 [notakeys] VLESS (['platform115.halalkhor.info']) | YouTube 1503ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (join.kiava.cloud.speedtest.net.xn--mgba2h8quf.cdn.t.cloudfront.net.kiava.fun) | YouTube 1583ms"
+      - "🌐 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt) | YouTube 3608ms"
 
   - name: 🇷🇺 Только Белые Списки (БС)
     type: url-test
@@ -246,26 +300,30 @@ proxy-groups:
     interval: 180
     tolerance: 50
     proxies:
-      - "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms"
-      - "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms"
-      - "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms"
-      - "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms"
-      - "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms"
-      - "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (sun6-21.userapi.com) | YouTube 3006ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (m.vk.com) | YouTube 3012ms"
 
   - name: 🛡️ Fallback
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "🇷🇺 [igareck/vpn-configs-for-russia (WHITE-CIDR-RU-all.txt)] VLESS | YouTube 563ms"
-      - "🇷🇺 [RKP (БС)] VLESS (345739t.de15.h1clayd.click) | YouTube 705ms"
-      - "🇷🇺 [Игарëк (БС)] VLESS (bg.edgemedia.lol) | YouTube 1288ms"
-      - "🇷🇺 [Rjsxrd] VLESS (psstatic.cdn.bcebos.com) | YouTube 2587ms"
-      - "🇷🇺 [Rjsxrd] VLESS (m.media-amazon.com) | YouTube 3015ms"
-      - "🇷🇺 [Rjsxrd] VLESS (www.apple.com) | YouTube 3247ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (srv-17e124.21freedom.net) | YouTube 463ms"
-      - "🌐 [KFWL (Full ЧС)] HYSTERIA2 (140.238.213.114) | YouTube 493ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (max.ru) | YouTube 558ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (patch-46.topp-con.xyz) | YouTube 574ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS (api-maps.yandex.ru) | YouTube 692ms"
+      - "🇷🇺 [VlessForU (БС)] VLESS (bg.edgemedia.lol) | YouTube 737ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (ams1.fromblancwithlove.com) | YouTube 1038ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 1284ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (all-servers.txt))] VLESS | YouTube 2023ms"
+      - "🇷🇺 [FalerChannel/FalerChannel (README (vl.txt))] VLESS (api-maps.yandex.ru) | YouTube 2147ms"
 
 rules:
   - DOMAIN-SUFFIX,ru,DIRECT
