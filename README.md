@@ -3,8 +3,8 @@
 > **Автоматически валидированный каталог серверов для работы в белых списках мобильных операторов РФ и обхода DPI.**
 > Все серверы протестированы на сквозное соединение с **YouTube** и ресурсами Google.
 
-📅 **Последнее обновление:** `2026-11-25 07:37:30 UTC`  
-⚡ **Проверенных рабочих серверов:** `28` шт. (из них строго в БС: `2` шт.)
+📅 **Последнее обновление:** `2026-11-25 14:13:34 UTC`  
+⚡ **Проверенных рабочих серверов:** `52` шт. (из них строго в БС: `1` шт.)
 
 ---
 
@@ -28,9 +28,9 @@
 | 1 | **Lime (БС)** | `БС` | 0 | [LimeVPN](https://github.com/LimeHi/LimeVPN) |
 | 2 | **Lime (ЧС)** | `ЧС` | 0 | [LimeVPN](https://github.com/LimeHi/LimeVPN) |
 | 3 | **WL RUS (БС)** | `БС` | 0 | [bywarm](https://gitverse.ru/bywarm/rser) |
-| 4 | **WL RUS (ЧС)** | `ЧС` | 0 | [bywarm](https://gitverse.ru/bywarm/rser) |
+| 4 | **WL RUS (ЧС)** | `ЧС` | **1** | [bywarm](https://gitverse.ru/bywarm/rser) |
 | 5 | **RoGo (БС)** | `БС` | 0 | [RoGo](https://gitverse.ru/RoGo/mobile-whitelist) |
-| 6 | **Akres** | `Универсальный` | **6** | [theakres](https://github.com/theakres/VPN) |
+| 6 | **Akres** | `Универсальный` | 0 | [theakres](https://github.com/theakres/VPN) |
 | 7 | **Игарëк (БС)** | `БС` | 0 | [igareck](https://github.com/igareck/vpn-configs-for-russia) |
 | 8 | **Игарëк (ЧС)** | `ЧС` | 0 | [igareck](https://github.com/igareck/vpn-configs-for-russia) |
 | 9 | **Zieng2** | `БС` | 0 | [zieng2](https://github.com/zieng2/wl) |
@@ -54,10 +54,10 @@
 | 27 | **Kizяк (ЧС)** | `ЧС` | 0 | [Maskkost93](https://github.com/Maskkost93/kizyak-vpn-4.0) |
 | 28 | **Gidroksi (БС)** | `БС` | 0 | [gidro](https://gitverse.ru/gidro/white) |
 | 29 | **Gidroksi (ЧС)** | `ЧС` | 0 | [gidro](https://gidroksi.fun) |
-| 30 | **Apex (БС)** | `БС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
+| 30 | **Apex (БС)** | `БС` | **1** | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 31 | **Apex (ЧС)** | `ЧС` | 0 | [bikinitw22](https://gitverse.ru/bikinitw22/apelsintel) |
 | 32 | **Aetris (БС)** | `БС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-white-list-lite) |
-| 33 | **Aetris (ЧС)** | `ЧС` | **2** | [flaafix](https://github.com/flaafix/AetrisVPN-black-list) |
+| 33 | **Aetris (ЧС)** | `ЧС` | 0 | [flaafix](https://github.com/flaafix/AetrisVPN-black-list) |
 | 34 | **sch2VPN** | `Normal` | 0 | [sch2VPN](https://happy-decoder.cc) |
 | 35 | **v2crackNG sub** | `Subs` | 0 | [Junify](https://junify.fun) |
 | 36 | **ЭтоНеЯ (БС)** | `БС` | 0 | [ЭтоНеЯ](https://hub.mos.ru/kfwl/etoneya) |
@@ -70,7 +70,7 @@
 | 43 | **KFWL (ЧС)** | `ЧС` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
 | 44 | **KFWL (Gemini)** | `Gemini` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
 | 45 | **KFWL (Full ЧС)** | `Full ЧС` | 0 | [KFWL](https://hub.mos.ru/kfwl/auto) |
-| 46 | **notakeys** | `Keys` | **1** | [wucrd](https://github.com/wucrd/parsing-configs) |
+| 46 | **notakeys** | `Keys` | 0 | [wucrd](https://github.com/wucrd/parsing-configs) |
 | 47 | **Sigrid VPN sub** | `Bypass` | 0 | [Sigrid VPN](https://is.wepogp.gay) |
 | 48 | **mack-a/v2ray-agent (README (install.sh))** | `GitHub Bypass` | 0 | [mack-a](https://github.com/mack-a/v2ray-agent) |
 | 49 | **Pawdroid/Free-servers (sub)** | `GitHub Bypass` | 0 | [Pawdroid](https://github.com/Pawdroid/Free-servers) |
@@ -127,11 +127,11 @@
 | 100 | **SEKTANTTA/antibabkavpn (ai.txt)** | `GitHub Bypass` | 0 | [SEKTANTTA](https://github.com/SEKTANTTA/antibabkavpn) |
 | 101 | **SEKTANTTA/antibabkavpn (regular.txt)** | `GitHub Bypass` | 0 | [SEKTANTTA](https://github.com/SEKTANTTA/antibabkavpn) |
 | 102 | **SEKTANTTA/antibabkavpn (ru_only.txt)** | `GitHub Bypass` | 0 | [SEKTANTTA](https://github.com/SEKTANTTA/antibabkavpn) |
-| 103 | **Diversan313/apex-parser (README (alive_plain_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
+| 103 | **Diversan313/apex-parser (README (alive_plain_full.txt))** | `GitHub Bypass` | **1** | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 104 | **Diversan313/apex-parser (README (alive_plain_bs.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 105 | **Diversan313/apex-parser (README (alive_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 106 | **Diversan313/apex-parser (README (alive_AI.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
-| 107 | **Diversan313/apex-parser (README (alive_plain_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
+| 107 | **Diversan313/apex-parser (README (alive_plain_full.txt))** | `GitHub Bypass` | **1** | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 108 | **Diversan313/apex-parser (README (alive_plain_bs.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 109 | **Diversan313/apex-parser (README (alive_bl.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 110 | **Diversan313/apex-parser (README (alive_full.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
@@ -143,7 +143,7 @@
 | 116 | **LimeHi/LimeVPN (README (whitelist.txt))** | `GitHub БС` | 0 | [LimeHi](https://github.com/LimeHi/LimeVPN) |
 | 117 | **coloramamoe/vless-parser (README (ru-sni-best-vless.txt))** | `GitHub Bypass` | 0 | [coloramamoe](https://github.com/coloramamoe/vless-parser) |
 | 118 | **coloramamoe/vless-parser (README (full.txt))** | `GitHub Bypass` | 0 | [coloramamoe](https://github.com/coloramamoe/vless-parser) |
-| 119 | **VAL41K/bypass-rkn-blocks (README (all_valid_proxies.txt))** | `GitHub Bypass` | **1** | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
+| 119 | **VAL41K/bypass-rkn-blocks (README (all_valid_proxies.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
 | 120 | **VAL41K/bypass-rkn-blocks (README (BLACK_SS%2BAll_RUS.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
 | 121 | **VAL41K/bypass-rkn-blocks (README (vless_universal.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
 | 122 | **VAL41K/bypass-rkn-blocks (README (AetrisVPN.txt))** | `GitHub Bypass` | 0 | [VAL41K](https://github.com/VAL41K/bypass-rkn-blocks) |
@@ -166,7 +166,7 @@
 | 139 | **FalerChannel/FalerChannel (configs)** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 140 | **FalerChannel/FalerChannel (README (6Satu_Notorgamers))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 141 | **FalerChannel/FalerChannel (README (general.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
-| 142 | **FalerChannel/FalerChannel (README (all-servers.txt))** | `GitHub Bypass` | **1** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 142 | **FalerChannel/FalerChannel (README (all-servers.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 143 | **B3B3097/paraser (sub_bs_top_ping.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 144 | **B3B3097/paraser (sub_250_20bs.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 145 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_tcptls_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
@@ -220,13 +220,13 @@
 | 193 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 194 | **B3B3097/paraser (README (sub_bs_all_base64.txt))** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 195 | **B3B3097/paraser (OSTATSYA_NA_SVYAZI_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
-| 196 | **0xRadikal/Free-Telegram-Proxy (README (configs_base64.txt))** | `GitHub Bypass` | **11** | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
+| 196 | **0xRadikal/Free-Telegram-Proxy (README (configs_base64.txt))** | `GitHub Bypass` | 0 | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
 | 197 | **0xRadikal/Free-Telegram-Proxy (README (top100.txt))** | `GitHub Bypass` | 0 | [0xRadikal](https://github.com/0xRadikal/Free-Telegram-Proxy) |
 | 198 | **B3B3097/paraser (v2ray_sub_base64.txt)** | `GitHub Bypass` | 0 | [B3B3097](https://github.com/B3B3097/paraser) |
 | 199 | **kfwle/KfWL (README (KfWLcheck.txt))** | `GitHub БС` | 0 | [kfwle](https://github.com/kfwle/KfWL) |
 | 200 | **kfwle/KfWL (README (KfWL.txt))** | `GitHub БС` | 0 | [kfwle](https://github.com/kfwle/KfWL) |
 | 201 | **kfwle/KfWL (KfWL.txt)** | `GitHub БС` | 0 | [kfwle](https://github.com/kfwle/KfWL) |
-| 202 | **FalerChannel/FalerChannel (README (vl.txt))** | `GitHub Bypass` | **6** | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
+| 202 | **FalerChannel/FalerChannel (README (vl.txt))** | `GitHub Bypass` | 0 | [FalerChannel](https://github.com/FalerChannel/FalerChannel) |
 | 203 | **lanopivijo93782-ops/hiddify-vless-xhttp-parser (sub/subscription.txt)** | `GitHub Bypass` | 0 | [lanopivijo93782-ops](https://github.com/lanopivijo93782-ops/hiddify-vless-xhttp-parser) |
 | 204 | **lanopivijo93782-ops/hiddify-vless-xhttp-parser (sub/vless.txt)** | `GitHub Bypass` | 0 | [lanopivijo93782-ops](https://github.com/lanopivijo93782-ops/hiddify-vless-xhttp-parser) |
 | 205 | **Diversan313/apex-parser (README (alive_plain_hysteria2.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
@@ -244,8 +244,8 @@
 | 217 | **Diversan313/apex-parser (README (alive_trojan.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 218 | **Diversan313/apex-parser (README (alive_hysteria2.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
 | 219 | **Diversan313/apex-parser (README (alive_plain_CF.txt))** | `GitHub Bypass` | 0 | [Diversan313](https://github.com/Diversan313/apex-parser) |
-| 220 | **pie-with-jam/PulseProxy (README (vless))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
-| 221 | **pie-with-jam/PulseProxy (README (vless.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
+| 220 | **pie-with-jam/PulseProxy (README (vless))** | `GitHub Bypass` | **2** | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
+| 221 | **pie-with-jam/PulseProxy (README (vless.txt))** | `GitHub Bypass` | **16** | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 222 | **pie-with-jam/PulseProxy (README (all_configs.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 223 | **pie-with-jam/PulseProxy (README (mixed_iran.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 224 | **pie-with-jam/PulseProxy (README (V2RAY_RAW.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
@@ -256,7 +256,7 @@
 | 229 | **pie-with-jam/PulseProxy (README (sub))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 230 | **pie-with-jam/PulseProxy (README (V2.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 231 | **pie-with-jam/PulseProxy (README (mixed_iran.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
-| 232 | **pie-with-jam/PulseProxy (README (vl.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
+| 232 | **pie-with-jam/PulseProxy (README (vl.txt))** | `GitHub Bypass` | **28** | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 233 | **pie-with-jam/PulseProxy (README (BLACK_FULL.txt))** | `GitHub Bypass` | 0 | [pie-with-jam](https://github.com/pie-with-jam/PulseProxy) |
 | 234 | **NiREvil/vless (README (Eternity))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 235 | **NiREvil/vless (README (mix))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
@@ -296,8 +296,8 @@
 | 269 | **NiREvil/vless (README (US.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 270 | **NiREvil/vless (README (vless_iran.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 271 | **NiREvil/vless (README (shadowsocks_base64.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
-| 272 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
-| 273 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
+| 272 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | **2** | [NiREvil](https://github.com/NiREvil/vless) |
+| 273 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | **2** | [NiREvil](https://github.com/NiREvil/vless) |
 | 274 | **NiREvil/vless (README (PL.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 275 | **NiREvil/vless (README (Germany.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 276 | **NiREvil/vless (README (ss.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
@@ -318,7 +318,7 @@
 | 291 | **NiREvil/vless (README (proxies.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 292 | **NiREvil/vless (README (sub2.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 293 | **NiREvil/vless (README (Sub8.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
-| 294 | **NiREvil/vless (README (VPN-cat))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
+| 294 | **NiREvil/vless (README (VPN-cat))** | `GitHub Bypass` | **1** | [NiREvil](https://github.com/NiREvil/vless) |
 | 295 | **NiREvil/vless (README (VN.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 296 | **NiREvil/vless (README (vless))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 297 | **NiREvil/vless (README (hysteria2))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
@@ -327,7 +327,7 @@
 | 300 | **NiREvil/vless (README (Singapore.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 301 | **NiREvil/vless (README (SouthSudan.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 302 | **NiREvil/vless (README (sub))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
-| 303 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
+| 303 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | **2** | [NiREvil](https://github.com/NiREvil/vless) |
 | 304 | **NiREvil/vless (README (Sub6.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 305 | **NiREvil/vless (README (Czechia.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 306 | **NiREvil/vless (README (Canada.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
@@ -357,7 +357,7 @@
 | 330 | **NiREvil/vless (README (Romania.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 331 | **NiREvil/vless (README (CY.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 332 | **NiREvil/vless (README (SSTime))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
-| 333 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
+| 333 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | **2** | [NiREvil](https://github.com/NiREvil/vless) |
 | 334 | **NiREvil/vless (README (Slovenia.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 335 | **NiREvil/vless (README (sub))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 336 | **NiREvil/vless (README (nodes))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
@@ -381,7 +381,7 @@
 | 354 | **NiREvil/vless (README (Netherlands.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 355 | **NiREvil/vless (README (14.2.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 356 | **NiREvil/vless (README (vless_base64.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
-| 357 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
+| 357 | **NiREvil/vless (README (vless.txt))** | `GitHub Bypass` | **2** | [NiREvil](https://github.com/NiREvil/vless) |
 | 358 | **NiREvil/vless (README (ss.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 359 | **NiREvil/vless (README (ss.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
 | 360 | **NiREvil/vless (README (KvRuVPN%2FKvRuVPN.txt))** | `GitHub Bypass` | 0 | [NiREvil](https://github.com/NiREvil/vless) |
